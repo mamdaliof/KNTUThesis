@@ -5,6 +5,27 @@
 
 \begin{LTRbibitems}
 \resetlatinfont
+\bibitem{healthjade_intracerebral_hemorrhage}
+Team, Health~Jade.
+\newblock Intracerebral hemorrhage causes, symptoms, diagnosis, treatment \&
+  recovery, October 18 2019.
+\newblock Accessed: 2024-08-26.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{rsna_hemorrhage_detection_kaggle}
+Rsna intracranial hemorrhage detection.
+\newblock
+  \url{https://www.kaggle.com/competitions/rsna-intracranial-hemorrhage-detection/overview},
+  2019.
+\newblock Accessed: 2024-08-26.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
 \bibitem{grewal2018radnet}
 Grewal, Monika, Srivastava, Muktabh~Mayank, Kumar, Pulkit, and Varadarajan,
   Srikrishna.
@@ -29,28 +50,6 @@ Monica~Jenefer, Balraj~M, Senathipathi, K, Aarthi, and Annapandi.
 
 \begin{LTRbibitems}
 \resetlatinfont
-\bibitem{burduja2020accurate}
-Burduja, Mihail, Ionescu, Radu~Tudor, and Verga, Nicolae.
-\newblock Accurate and efficient intracranial hemorrhage detection and subtype
-  classification in 3d ct scans with convolutional and long short-term memory
-  neural networks.
-\newblock {\em Sensors}, 20(19):5611, 2020.
-
-\end{LTRbibitems}
-
-\begin{LTRbibitems}
-\resetlatinfont
-\bibitem{hssayeni2020intracranial}
-Hssayeni, Murtadha~D, Croock, Muayad~S, Salman, Aymen~D, Al-Khafaji,
-  Hassan~Falah, Yahya, Zakaria~A, and Ghoraani, Behnaz.
-\newblock Intracranial hemorrhage segmentation using a deep convolutional
-  model.
-\newblock {\em Data}, 5(1):14, 2020.
-
-\end{LTRbibitems}
-
-\begin{LTRbibitems}
-\resetlatinfont
 \bibitem{arbabshirani2018advanced}
 Arbabshirani, Mohammad~R, Fornwalt, Brandon~K, Mongelluzzo, Gino~J, Suever,
   Jonathan~D, Geise, Brandon~D, Patel, Aalpen~A, and Moore, Gregory~J.
@@ -58,6 +57,17 @@ Arbabshirani, Mohammad~R, Fornwalt, Brandon~K, Mongelluzzo, Gino~J, Suever,
   hemorrhage on computed tomography scans of the head with clinical workflow
   integration.
 \newblock {\em NPJ digital medicine}, 1(1):9, 2018.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{burduja2020accurate}
+Burduja, Mihail, Ionescu, Radu~Tudor, and Verga, Nicolae.
+\newblock Accurate and efficient intracranial hemorrhage detection and subtype
+  classification in 3d ct scans with convolutional and long short-term memory
+  neural networks.
+\newblock {\em Sensors}, 20(19):5611, 2020.
 
 \end{LTRbibitems}
 
@@ -133,6 +143,17 @@ Chilamkurthy, Sasank, Ghosh, Rohit, Tanamala, Swetha, Biviji, Mustafa, Campeau,
 
 \begin{LTRbibitems}
 \resetlatinfont
+\bibitem{hssayeni2020intracranial}
+Hssayeni, Murtadha~D, Croock, Muayad~S, Salman, Aymen~D, Al-Khafaji,
+  Hassan~Falah, Yahya, Zakaria~A, and Ghoraani, Behnaz.
+\newblock Intracranial hemorrhage segmentation using a deep convolutional
+  model.
+\newblock {\em Data}, 5(1):14, 2020.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
 \bibitem{alfaro1995accuracy}
 Alfaro, Dennis, Levitt, M~Andrew, English, David~K, Williams, Virgil, and
   Eisenberg, Ronald.
@@ -175,6 +196,30 @@ Strub, WM, Leach, JL, Tomsick, T, and Vagal, A.
 
 \begin{LTRbibitems}
 \resetlatinfont
+\bibitem{lee2019explainable}
+Lee, Hyunkwang, Yune, Sehyo, Mansouri, Mohammad, Kim, Myeongchan, Tajmir,
+  Shahein~H, Guerrier, Claude~E, Ebert, Sarah~A, Pomerantz, Stuart~R, Romero,
+  Javier~M, Kamalian, Shahmir, et~al.
+\newblock An explainable deep-learning algorithm for the detection of acute
+  intracranial haemorrhage from small datasets.
+\newblock {\em Nature biomedical engineering}, 3(3):173--182, 2019.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{chang2018hybrid}
+Chang, Peter~D, Kuoy, Edward, Grinband, Jack, Weinberg, Brent~D, Thompson,
+  Matthew, Homo, Richelle, Chen, Jefferson, Abcede, Hermelinda, Shafie,
+  Mohammad, Sugrue, Leo, et~al.
+\newblock Hybrid 3d/2d convolutional neural network for hemorrhage evaluation
+  on head ct.
+\newblock {\em American Journal of Neuroradiology}, 39(9):1609--1616, 2018.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
 \bibitem{titano2018automated}
 Titano, Joseph~J, Badgeley, Marcus, Schefflein, Javin, Pain, Margaret, Su,
   Andres, Cai, Michael, Swinburne, Nathaniel, Zech, John, Kim, Jun, Bederson,
@@ -182,6 +227,25 @@ Titano, Joseph~J, Badgeley, Marcus, Schefflein, Javin, Pain, Margaret, Su,
 \newblock Automated deep-neural-network surveillance of cranial images for
   acute neurologic events.
 \newblock {\em Nature medicine}, 24(9):1337--1341, 2018.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{rsna_kaggle}
+Rsna intracranial hemorrhage detection, 2024.
+\newblock Accessed: 2024-08-27.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{medmos_khoruzhaya2024expanded}
+Khoruzhaya, Anna~N, Bobrovskaya, Tatiana~M, Kozlov, Dmitriy~V, Kuligovskiy,
+  Dmitriy, Novik, Vladimir~P, Arzamasov, Kirill~M, and Kremneva, Elena~I.
+\newblock Expanded brain ct dataset for the development of ai systems for
+  intracranial hemorrhage detection and classification.
+\newblock {\em Data}, 9(2):30, 2024.
 
 \end{LTRbibitems}
 
