@@ -249,4 +249,62 @@ Khoruzhaya, Anna~N, Bobrovskaya, Tatiana~M, Kozlov, Dmitriy~V, Kuligovskiy,
 
 \end{LTRbibitems}
 
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{cq500_chilamkurthy2018development}
+Chilamkurthy, Sasank, Ghosh, Rohit, Tanamala, Swetha, Biviji, Mustafa, Campeau,
+  Norbert~G, Venugopal, Vasantha~Kumar, Mahajan, Vidur, Rao, Pooja, and Warier,
+  Prashant.
+\newblock Development and validation of deep learning algorithms for detection
+  of critical findings in head ct scans.
+\newblock {\em arXiv preprint arXiv:1803.05854}, 2018.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{PHE_ma2024phe}
+Ma, Deguo, Li, Chen, Du, Tianming, Qiao, Lin, Tang, Dechao, Ma, Zhiyu, Shi,
+  Liyu, Lu, Guotao, Meng, Qingtao, Chen, Zhihao, et~al.
+\newblock Phe-sich-ct-ids: A benchmark ct image dataset for evaluation semantic
+  segmentation, object detection and radiomic feature extraction of
+  perihematomal edema in spontaneous intracerebral hemorrhage.
+\newblock {\em Computers in Biology and Medicine}, 173:108342, 2024.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{physionet_hssayeni2020intracranial}
+Hssayeni, Murtadha~D, Croock, Muayad~S, Salman, Aymen~D, Al-Khafaji,
+  Hassan~Falah, Yahya, Zakaria~A, and Ghoraani, Behnaz.
+\newblock Intracranial hemorrhage segmentation using a deep convolutional
+  model.
+\newblock {\em Data}, 5(1):14, 2020.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{neethi2022stroke}
+Neethi, AS, Niyas, S, Kannath, Santhosh~Kumar, Mathew, Jimson, Anzar,
+  Ajimi~Mol, and Rajan, Jeny.
+\newblock Stroke classification from computed tomography scans using 3d
+  convolutional neural network.
+\newblock {\em Biomedical Signal Processing and Control}, 76:103720, 2022.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{kyung2022improved}
+Kyung, Sunggu, Shin, Keewon, Jeong, Hyunsu, Kim, Ki~Duk, Park, Jooyoung, Cho,
+  Kyungjin, Lee, Jeong~Hyun, Hong, GilSun, and Kim, Namkug.
+\newblock Improved performance and robustness of multi-task representation
+  learning with consistency loss between pretexts for intracranial hemorrhage
+  identification in head ct.
+\newblock {\em Medical Image Analysis}, 81:102489, 2022.
+
+\end{LTRbibitems}
+
 \end{thebibliography}

@@ -3,13 +3,9 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: KNTUthesis.aux
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: chapter1.aux
-Reallocating 'name_of_file' (item size: 1) to 13 items.
-A level-1 auxiliary file: chapter2.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: unsrt-fa.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
-Reallocating 'name_of_file' (item size: 1) to 14 items.
-A level-1 auxiliary file: appendix1.aux
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: dicfa2en.aux
 Reallocating 'name_of_file' (item size: 1) to 13 items.
@@ -21,44 +17,44 @@ Database file #1: references.bib
 -- This is a BibTeX style for XePersian: http://www.parsilatex.com
 
 Done.
-You've used 22 entries,
+You've used 27 entries,
             2198 wiz_defined-function locations,
-            716 strings with 10946 characters,
-and the built_in function-call counts, 6454 in all, are:
-= -- 477
-> -- 422
+            737 strings with 12175 characters,
+and the built_in function-call counts, 7904 in all, are:
+= -- 561
+> -- 555
 < -- 1
-+ -- 149
-- -- 127
-* -- 554
-:= -- 1017
-add.period$ -- 66
-call.type$ -- 22
-change.case$ -- 22
++ -- 195
+- -- 168
+* -- 680
+:= -- 1273
+add.period$ -- 81
+call.type$ -- 27
+change.case$ -- 27
 chr.to.int$ -- 0
-cite$ -- 22
-duplicate$ -- 198
-empty$ -- 519
-format.name$ -- 127
-if$ -- 1406
+cite$ -- 27
+duplicate$ -- 242
+empty$ -- 618
+format.name$ -- 168
+if$ -- 1711
 int.to.chr$ -- 0
-int.to.str$ -- 22
-missing$ -- 84
-newline$ -- 203
-num.names$ -- 20
-pop$ -- 46
+int.to.str$ -- 27
+missing$ -- 104
+newline$ -- 248
+num.names$ -- 25
+pop$ -- 53
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 78
+skip$ -- 93
 stack$ -- 0
-substring$ -- 447
-swap$ -- 32
+substring$ -- 507
+swap$ -- 37
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 4
 type$ -- 0
 warning$ -- 0
-while$ -- 54
-width$ -- 24
-write$ -- 309
+while$ -- 63
+width$ -- 29
+write$ -- 378
