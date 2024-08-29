@@ -3,6 +3,8 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: KNTUthesis.aux
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: chapter1.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: chapter2.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: unsrt-fa.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
@@ -17,44 +19,44 @@ Database file #1: references.bib
 -- This is a BibTeX style for XePersian: http://www.parsilatex.com
 
 Done.
-You've used 27 entries,
+You've used 29 entries,
             2198 wiz_defined-function locations,
-            737 strings with 12175 characters,
-and the built_in function-call counts, 7904 in all, are:
-= -- 561
-> -- 555
+            747 strings with 12702 characters,
+and the built_in function-call counts, 8276 in all, are:
+= -- 586
+> -- 576
 < -- 1
-+ -- 195
-- -- 168
-* -- 680
-:= -- 1273
-add.period$ -- 81
-call.type$ -- 27
-change.case$ -- 27
++ -- 203
+- -- 174
+* -- 702
+:= -- 1327
+add.period$ -- 87
+call.type$ -- 29
+change.case$ -- 29
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 242
-empty$ -- 618
-format.name$ -- 168
-if$ -- 1711
+cite$ -- 29
+duplicate$ -- 256
+empty$ -- 655
+format.name$ -- 174
+if$ -- 1798
 int.to.chr$ -- 0
-int.to.str$ -- 27
-missing$ -- 104
-newline$ -- 248
-num.names$ -- 25
-pop$ -- 53
+int.to.str$ -- 29
+missing$ -- 110
+newline$ -- 266
+num.names$ -- 26
+pop$ -- 62
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 93
+skip$ -- 99
 stack$ -- 0
-substring$ -- 507
-swap$ -- 37
+substring$ -- 513
+swap$ -- 39
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 4
 type$ -- 0
 warning$ -- 0
-while$ -- 63
-width$ -- 29
-write$ -- 378
+while$ -- 65
+width$ -- 31
+write$ -- 404

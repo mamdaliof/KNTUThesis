@@ -15,6 +15,17 @@ Team, Health~Jade.
 
 \begin{LTRbibitems}
 \resetlatinfont
+\bibitem{kaggleCTScansDICOM}
+{C}{T}-{S}cans, {D}{I}{C}{O}{M} files, {W}indowing {E}xplained ✔️✔️ ---
+  kaggle.com.
+\newblock
+  \url{https://www.kaggle.com/code/redwankarimsony/ct-scans-dicom-files-windowing-explained/notebook}.
+\newblock [Accessed 29-08-2024].
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
 \bibitem{rsna_hemorrhage_detection_kaggle}
 Rsna intracranial hemorrhage detection.
 \newblock
@@ -304,6 +315,18 @@ Kyung, Sunggu, Shin, Keewon, Jeong, Hyunsu, Kim, Ki~Duk, Park, Jooyoung, Cho,
   learning with consistency loss between pretexts for intracranial hemorrhage
   identification in head ct.
 \newblock {\em Medical Image Analysis}, 81:102489, 2022.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{hssayeni2020computed}
+Hssayeni, Murtadha, Croock, M, Salman, A, Al-khafaji, H, Yahya, Z, and
+  Ghoraani, B.
+\newblock Computed tomography images for intracranial hemorrhage detection and
+  segmentation.
+\newblock {\em Intracranial hemorrhage segmentation using a deep convolutional
+  model. Data}, 5(1):14, 2020.
 
 \end{LTRbibitems}
 

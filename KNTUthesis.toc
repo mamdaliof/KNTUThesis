@@ -18,7 +18,9 @@
 \contentsline {section}{\numberline {1-6}تحقیقات اخیر در زمینه یادگیری ماشین}{9}{section.1.6}%
 \contentsline {subsection}{\numberline {1-6-1}نقاط ضعف موجود در پژوهش‌های گذشته}{10}{subsection.1.6.1}%
 \contentsline {subsection}{\numberline {1-6-2}دستاوردهای ما و نحوه حل مشکلات گذشته}{11}{subsection.1.6.2}%
-\contentsline {chapter}{منابع و مراجع}{12}{appendix*.10}%
-\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{17}{appendix*.11}%
-\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{19}{appendix*.12}%
+\contentsline {chapter}{\numberline {2}روش‌ها و مجموعه‌داده}{12}{chapter.2}%
+\contentsline {section}{\numberline {2-1}بررسی آماری مجموعه داده}{13}{section.2.1}%
+\contentsline {chapter}{منابع و مراجع}{18}{appendix*.16}%
+\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{23}{appendix*.17}%
+\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{25}{appendix*.18}%
 \contentsfinish 
