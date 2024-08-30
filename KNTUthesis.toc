@@ -21,7 +21,15 @@
 \contentsline {chapter}{\numberline {2}روش‌ها و مجموعه‌داده}{13}{chapter.2}%
 \contentsline {section}{\numberline {2-1}بررسی آماری مجموعه داده}{14}{section.2.1}%
 \contentsline {section}{\numberline {2-2}پیش‌پردازش\LTRfootnote {Pre-process}}{18}{section.2.2}%
-\contentsline {chapter}{منابع و مراجع}{22}{appendix*.19}%
-\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{27}{appendix*.20}%
-\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{29}{appendix*.21}%
+\contentsline {section}{\numberline {2-3}روش پردازش تصاویر}{21}{section.2.3}%
+\contentsline {subsection}{\numberline {2-3-1}یادگیری عمیق و اصول اولیه}{21}{subsection.2.3.1}%
+\contentsline {subsubsection}{ساختار نورون}{22}{section*.19}%
+\contentsline {subsubsection}{لایه‌های پنهان}{22}{section*.20}%
+\contentsline {subsubsection}{تابع خطا و پس‌انتشار \LTRfootnote {backpropagation}}{23}{section*.22}%
+\contentsline {subsubsection}{لایه‌های پرسپترون \LTRfootnote {Perceptron} چندلایه}{24}{section*.23}%
+\contentsline {subsubsection}{شبکه عصبی پیچشی \LTRfootnote {Convolutional Neural Network}}{24}{section*.24}%
+\contentsline {subsubsection}{بهینه‌سازها و الگوریتم \lr {Adam} }{25}{section*.25}%
+\contentsline {chapter}{منابع و مراجع}{26}{appendix*.26}%
+\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{31}{appendix*.27}%
+\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{33}{appendix*.28}%
 \contentsfinish 

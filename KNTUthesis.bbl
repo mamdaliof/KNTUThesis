@@ -342,4 +342,27 @@ Hssayeni, Murtadha, Croock, M, Salman, A, Al-khafaji, H, Yahya, Z, and
 
 \end{LTRbibitems}
 
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{towardsdatascienceUnderstandingDeep}
+Efimov, Vyacheslav.
+\newblock {U}nderstanding {D}eep {L}earning {O}ptimizers: {M}omentum,
+  {A}da{G}rad, {R}{M}{S}{P}rop \& {A}dam --- towardsdatascience.com.
+\newblock
+  \url{https://towardsdatascience.com/understanding-deep-learning-optimizers-momentum-adagrad-rmsprop-adam-e311e377e9c2}.
+\newblock [Accessed 30-08-2024].
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{mediumMomentumRMSpropAdam}
+Khandewal, Harsh.
+\newblock {M}omentum ,{R}{M}{S}prop {A}nd {A}dam {O}ptimizer --- medium.com.
+\newblock
+  \url{https://medium.com/analytics-vidhya/momentum-rmsprop-and-adam-optimizer-5769721b4b19}.
+\newblock [Accessed 30-08-2024].
+
+\end{LTRbibitems}
+
 \end{thebibliography}

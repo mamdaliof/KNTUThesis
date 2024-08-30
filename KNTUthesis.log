@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.12) (preloaded format=xelatex 2024.5.17)  30 AUG 2024 21:16
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.12) (preloaded format=xelatex 2024.5.17)  31 AUG 2024 01:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4185,7 +4185,6 @@ File: Images/chapter2/bleed_location_no_caption.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4203,7 +4202,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21] (KNTUthesis.bbl
+[21]
+File: Images/Chapter2/neuron.png Graphic file (type bmp)
+<Images/Chapter2/neuron.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25] (KNTUthesis.bbl
 LaTeX Font Info:    Font shape `TU/BNazanin.ttf(0)/m/n' will be
 (Font)              scaled to size 29.85593pt on input line 4.
 Package microtype Info: Character `A' is missing
@@ -4348,7 +4386,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--35
 LaTeX Font Warning: Font shape `TU/times(0)/m/it' undefined
 (Font)              using `TU/times(0)/m/n' instead on input line 45.
 
-[22
+[26
 
 
 
@@ -4361,7 +4399,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23]
+[27]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4370,7 +4408,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24]
+[28]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4379,7 +4417,49 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25])
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 348--354
+[][]\TU/times(0)/m/it/12 Efimov, Vyacheslav.  Understanding Deep Learning Opti-
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--354
+[]\TU/times(0)/m/it/12 mizers: Momentum, AdaGrad, RMSProp & Adam — to-[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--354
+[]\TU/times(0)/m/it/12 wardsdatascience.com.  [][][]$[][][][][] [] [] [] [][][]
+[][][][][][][][][][][][][][][] [] [][][] []$[][]
+ []
+
+
+Overfull \hbox (93.17824pt too wide) in paragraph at lines 348--354
+[][]$[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][]$[][][]\TU/times(0)/m/it/12 .[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--365
+[][]\TU/times(0)/m/it/12 Khandewal, Harsh.  Momentum ,RMSprop And Adam Optimize
+r[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--365
+[]\TU/times(0)/m/it/12 — medium.com.  [][][]$[][][][][] [] [] [] [][][][][][] [
+] [][][] [] [][][][][][][][][][][][][][][][][] []$[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--365
+[][]$[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][]$[][][]\TU/times(0)/m/it/12 .  [Accessed 30-[]
+ []
+
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4388,7 +4468,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26]
+[30]
 \openout2 = `dicfa2en.aux'.
 
  (dicfa2en.tex
@@ -4396,7 +4476,7 @@ Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
 ;script=arab;mapping=persian-tex-text;!
 Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
 ;script=arab;mapping=persian-tex-text;!
-[27
+[31
 
 
 ]
@@ -4412,7 +4492,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28])
+[32])
 \openout2 = `dicen2fa.aux'.
 
  (dicen2fa.tex
@@ -4420,7 +4500,7 @@ Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
 ;script=arab;mapping=persian-tex-text;!
 Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
 ;script=arab;mapping=persian-tex-text;!
-[29
+[33
 
 
 
@@ -4439,18 +4519,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[30]
+[34]
 No file KNTUthesis.ind.
 \openout2 = `en-abstract.aux'.
 
-(en-abstract.tex) [31
+(en-abstract.tex) [35
 
 
 
 ] (en_title.tex
 File: en-logo.png Graphic file (type bmp)
 <en-logo.png>
- [32
+ [36
 
 
 ]) (KNTUthesis.aux (chapter1.aux)
@@ -4466,16 +4546,22 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `KNTUthesis.out' has not changed.
-(rerunfilecheck)             Checksum: 4BC290E1AC513AB00EC351DFC234F7B8;5338.
+
+Package rerunfilecheck Warning: File `KNTUthesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `KNTUthesis.out':
+(rerunfilecheck)             Before: EA5C82832A7F348E4E107477B814793D;5791
+(rerunfilecheck)             After:  CFB8F380460BC458EEC0A9DE4C5740A0;5791.
  ) 
 Here is how much of TeX's memory you used:
- 37120 strings out of 409616
- 752292 string characters out of 5776834
- 1942177 words of memory out of 5000000
- 58428 multiletter control sequences out of 15000+600000
- 569288 words of font info for 161 fonts, out of 8000000 for 9000
+ 37216 strings out of 409616
+ 754077 string characters out of 5776834
+ 1943177 words of memory out of 5000000
+ 58517 multiletter control sequences out of 15000+600000
+ 571143 words of font info for 167 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,15n,110p,2409b,679s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on KNTUthesis.pdf (43 pages).
+Output written on KNTUthesis.pdf (47 pages).
