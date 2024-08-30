@@ -201,21 +201,55 @@ $100$
 \lr{‌PhysioNet}،
 پردازش تصویر اصلی به‌ازای مرکز پنجره 40 و پهنای پنجره 120، پنجره مغز استخراج می‌شود و به‌ازای مرکز پنجره 700 و پهنای پنجره 3200،‌ پنجره استخوان استخراج می‌شود.
 \autoref{fig:ch2-windowed-ct-sample}
-اثر پنجره‌گذاری را بر یک نمونه برش سی‌تی‌اسکن نشان می‌دهد. همانطور که از این تصویر مشخص است، تصویر قبل از پیش‌پردازش جزییات خاصی را به ما نشان نمی‌دهد و اگر این عکس را بدون نرمال کردن برای آموزش شبکه‌عصبی استفاده کنیم، باعث ایجاد م
+اثر پنجره‌گذاری را بر یک نمونه برش سی‌تی‌اسکن نشان می‌دهد. همانطور که از این
+\autoref{fig:ch2-before-processing}
+ مشخص است، تصویر قبل از پیش‌پردازش جزییات خاصی را به ما نشان نمی‌دهد و اگر این تصویر را بدون نرمال کردن برای آموزش شبکه‌عصبی استفاده کنیم، باعث می‌شود که لایه‌های ابتدایی شبکه مقادیر خیلی بزرگی را ایجاد کنند و در نتیجه عملکرد مدل کاهش پیدا بکند و اگر این تصویر را نرمال کنیم، به علت بازه بسیار زیاد یکای 
+\lr{Hounsfield}
+تفکیک‌پذیری مقادیر تصویر به شدت کاهش پیدا می‌کند. در ادامه
+\autoref{fig:ch2-brain-window}, \autoref{fig:ch2-bone-window} و \autoref{fig:ch2-subdural-window}
+اثر سه پنجره مرسوم مغز، استخوان و سابدورال را مشاهده می‌کنیم که هرکدام تفکیک‌پذیری بافت هدف خود را افزایش داده‌اند و در پنجره مغز و سابدورال، محل خونریزی به وضوح مشخص است.
+\autoref{fig:ch2-selected-window}
+ پنجره انتخابی را نشان می‌دهد که براساس محدوده موجود در  
+\autoref{fig:ch2-pixel-hist-ich-vs-healthy}
+انتخاب شده‌است و در نتیجه آن، محل خونریزی بروز بیشتری پیدا کرده است. در ادامه این پژوهش،‌ پنجره مغز به عنوان پنجره اصلی آموزش و ارزیابی مدل‌ها درنظر گرفته شده است.
 
- به 
 
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=1.0\linewidth]{"Images/Chapter2/Windowed CT"}
+
+\begin{figure}[h!]
+    \centering % <-- added
+    \begin{subfigure}{0.33\textwidth}
+      \includegraphics[width=\linewidth]{Images/chapter2/before_processing_no_caption.png}
+      \caption{قبل از پردازش}
+      \label{fig:ch2-before-processing}
+    \end{subfigure}\hfil % <-- 
+    \begin{subfigure}{0.33\textwidth}
+      \includegraphics[width=\linewidth]{Images/chapter2/brain_window_no_caption.png}
+      \caption{پنجره مغز}
+      \label{fig:ch2-brain-window}
+    \end{subfigure}\hfil % <-- 
+    \begin{subfigure}{0.33\textwidth}
+      \includegraphics[width=\linewidth]{Images/chapter2/bone_window_no_caption.png}
+      \caption{پنجره استخوان}
+      \label{fig:ch2-bone-window}
+    \end{subfigure}\hfil % <-- 
+    \begin{subfigure}{0.33\textwidth}
+      \includegraphics[width=\linewidth]{Images/chapter2/subdural_window_no_caption.png}
+      \caption{پنجره ساب‌دورال}
+      \label{fig:ch2-subdural-window}
+    \end{subfigure}\hfil % <-- 
+    \begin{subfigure}{0.33\textwidth}
+      \includegraphics[width=\linewidth]{Images/chapter2/selected_window_no_caption.png}
+      \caption{پنجره انتخابی}
+      \label{fig:ch2-selected-window}
+    \end{subfigure}\hfil % <-- 
+    \begin{subfigure}{0.33\textwidth}
+      \includegraphics[width=\linewidth]{Images/chapter2/bleed_location_no_caption.png}
+      \caption{محل خونریزی}
+      \label{fig:ch2-bleed-location}
+    \end{subfigure}
 \caption{تاثیر اثر پنجره‌گذاری در نمایش خونریزی در یک برش از سی‌تی‌اسکن}
 \label{fig:ch2-windowed-ct-sample}
 \end{figure}
-
-
-
-
-
 
 

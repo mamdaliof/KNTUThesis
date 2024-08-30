@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.12) (preloaded format=xelatex 2024.5.17)  30 AUG 2024 20:43
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.12) (preloaded format=xelatex 2024.5.17)  30 AUG 2024 21:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4169,11 +4169,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19]
-File: Images/Chapter2/Windowed CT.png Graphic file (type bmp)
-<Images/Chapter2/Windowed CT.png>
+File: Images/chapter2/before_processing_no_caption.png Graphic file (type bmp)
+<Images/chapter2/before_processing_no_caption.png>
+File: Images/chapter2/brain_window_no_caption.png Graphic file (type bmp)
+<Images/chapter2/brain_window_no_caption.png>
+File: Images/chapter2/bone_window_no_caption.png Graphic file (type bmp)
+<Images/chapter2/bone_window_no_caption.png>
+File: Images/chapter2/subdural_window_no_caption.png Graphic file (type bmp)
+<Images/chapter2/subdural_window_no_caption.png>
+File: Images/chapter2/selected_window_no_caption.png Graphic file (type bmp)
+<Images/chapter2/selected_window_no_caption.png>
+File: Images/chapter2/bleed_location_no_caption.png Graphic file (type bmp)
+<Images/chapter2/bleed_location_no_caption.png>
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 
@@ -4460,10 +4470,10 @@ Package rerunfilecheck Info: File `KNTUthesis.out' has not changed.
 (rerunfilecheck)             Checksum: 4BC290E1AC513AB00EC351DFC234F7B8;5338.
  ) 
 Here is how much of TeX's memory you used:
- 37061 strings out of 409616
- 749680 string characters out of 5776834
+ 37120 strings out of 409616
+ 752292 string characters out of 5776834
  1942177 words of memory out of 5000000
- 58375 multiletter control sequences out of 15000+600000
+ 58428 multiletter control sequences out of 15000+600000
  569288 words of font info for 161 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,15n,110p,2409b,679s stack positions out of 10000i,1000n,20000p,200000b,200000s
