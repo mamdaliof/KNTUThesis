@@ -26,6 +26,16 @@ Team, Health~Jade.
 
 \begin{LTRbibitems}
 \resetlatinfont
+\bibitem{brainmentorsIntroductionDeep}
+at~3rd Wave~Media, Xiaoying~Riley.
+\newblock {I}ntroduction to {D}eep {L}earning --- blogs.brain-mentors.com.
+\newblock \url{https://blogs.brain-mentors.com/introduction-to-deep-learning/}.
+\newblock [Accessed 30-08-2024].
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
 \bibitem{rsna_hemorrhage_detection_kaggle}
 Rsna intracranial hemorrhage detection.
 \newblock

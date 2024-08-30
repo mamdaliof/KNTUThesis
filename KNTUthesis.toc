@@ -30,6 +30,6 @@
 \contentsline {subsubsection}{شبکه عصبی پیچشی \LTRfootnote {Convolutional Neural Network}}{24}{section*.24}%
 \contentsline {subsubsection}{بهینه‌سازها و الگوریتم \lr {Adam} }{25}{section*.25}%
 \contentsline {chapter}{منابع و مراجع}{26}{appendix*.26}%
-\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{31}{appendix*.27}%
-\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{33}{appendix*.28}%
+\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{32}{appendix*.27}%
+\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{34}{appendix*.28}%
 \contentsfinish 
