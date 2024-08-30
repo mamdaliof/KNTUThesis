@@ -320,6 +320,18 @@ Kyung, Sunggu, Shin, Keewon, Jeong, Hyunsu, Kim, Ki~Duk, Park, Jooyoung, Cho,
 
 \begin{LTRbibitems}
 \resetlatinfont
+\bibitem{li2020deep}
+Li, Lu, Wei, Meng, Liu, BO, Atchaneeyasakul, Kunakorn, Zhou, Fugen, Pan, Zehao,
+  Kumar, Shimran~A, Zhang, Jason~Y, Pu, Yuehua, Liebeskind, David~S, et~al.
+\newblock Deep learning for hemorrhagic lesion detection and segmentation on
+  brain ct images.
+\newblock {\em IEEE journal of biomedical and health informatics},
+  25(5):1646--1659, 2020.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
 \bibitem{hssayeni2020computed}
 Hssayeni, Murtadha, Croock, M, Salman, A, Al-khafaji, H, Yahya, Z, and
   Ghoraani, B.

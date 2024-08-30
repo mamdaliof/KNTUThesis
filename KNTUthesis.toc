@@ -16,11 +16,12 @@
 \contentsline {subsection}{\numberline {1-5-4}مجموعه‌داده‌ی \lr {PHE-SICH-CT-IDS}}{7}{subsection.1.5.4}%
 \contentsline {subsection}{\numberline {1-5-5}مجموعه‌داده‌ی \lr {PhysioNet}}{8}{subsection.1.5.5}%
 \contentsline {section}{\numberline {1-6}تحقیقات اخیر در زمینه یادگیری ماشین}{9}{section.1.6}%
-\contentsline {subsection}{\numberline {1-6-1}نقاط ضعف موجود در پژوهش‌های گذشته}{10}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1-6-2}دستاوردهای ما و نحوه حل مشکلات گذشته}{11}{subsection.1.6.2}%
-\contentsline {chapter}{\numberline {2}روش‌ها و مجموعه‌داده}{12}{chapter.2}%
-\contentsline {section}{\numberline {2-1}بررسی آماری مجموعه داده}{13}{section.2.1}%
-\contentsline {chapter}{منابع و مراجع}{18}{appendix*.16}%
-\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{23}{appendix*.17}%
-\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{25}{appendix*.18}%
+\contentsline {subsection}{\numberline {1-6-1}نقاط ضعف موجود در پژوهش‌های گذشته}{11}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1-6-2}اهداف پژوهش}{11}{subsection.1.6.2}%
+\contentsline {chapter}{\numberline {2}روش‌ها و مجموعه‌داده}{13}{chapter.2}%
+\contentsline {section}{\numberline {2-1}بررسی آماری مجموعه داده}{14}{section.2.1}%
+\contentsline {section}{\numberline {2-2}پیش‌پردازش\LTRfootnote {Pre-process}}{18}{section.2.2}%
+\contentsline {chapter}{منابع و مراجع}{22}{appendix*.19}%
+\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{27}{appendix*.20}%
+\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{29}{appendix*.21}%
 \contentsfinish 
