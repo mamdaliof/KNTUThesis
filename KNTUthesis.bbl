@@ -16,8 +16,7 @@ Team, Health~Jade.
 \begin{LTRbibitems}
 \resetlatinfont
 \bibitem{kaggleCTScansDICOM}
-{C}{T}-{S}cans, {D}{I}{C}{O}{M} files, {W}indowing {E}xplained ✔️✔️ ---
-  kaggle.com.
+{C}{T}-{S}cans, {D}{I}{C}{O}{M} files, {W}indowing {E}xplained --- kaggle.com.
 \newblock
   \url{https://www.kaggle.com/code/redwankarimsony/ct-scans-dicom-files-windowing-explained/notebook}.
 \newblock [Accessed 29-08-2024].
@@ -31,6 +30,45 @@ at~3rd Wave~Media, Xiaoying~Riley.
 \newblock {I}ntroduction to {D}eep {L}earning --- blogs.brain-mentors.com.
 \newblock \url{https://blogs.brain-mentors.com/introduction-to-deep-learning/}.
 \newblock [Accessed 30-08-2024].
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{wikipediaResidualNeural}
+{R}esidual neural network - {W}ikipedia --- en.wikipedia.org.
+\newblock \url{https://en.wikipedia.org/wiki/Residual_neural_network}.
+\newblock [Accessed 31-08-2024].
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{xie2017aggregated}
+Xie, Saining, Girshick, Ross, Doll{\'a}r, Piotr, Tu, Zhuowen, and He, Kaiming.
+\newblock Aggregated residual transformations for deep neural networks.
+\newblock  in {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition},  pp. 1492--1500, 2017.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{hu2018squeeze}
+Hu, Jie, Shen, Li, and Sun, Gang.
+\newblock Squeeze-and-excitation networks.
+\newblock  in {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition},  pp. 7132--7141, 2018.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{huang2017densely}
+Huang, Gao, Liu, Zhuang, Van Der~Maaten, Laurens, and Weinberger, Kilian~Q.
+\newblock Densely connected convolutional networks.
+\newblock  in {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition},  pp. 4700--4708, 2017.
 
 \end{LTRbibitems}
 
@@ -372,6 +410,37 @@ Khandewal, Harsh.
 \newblock
   \url{https://medium.com/analytics-vidhya/momentum-rmsprop-and-adam-optimizer-5769721b4b19}.
 \newblock [Accessed 30-08-2024].
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{he2016deep}
+He, Kaiming, Zhang, Xiangyu, Ren, Shaoqing, and Sun, Jian.
+\newblock Deep residual learning for image recognition.
+\newblock  in {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition},  pp. 770--778, 2016.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{tan2019efficientnet}
+Tan, Mingxing.
+\newblock Efficientnet: Rethinking model scaling for convolutional neural
+  networks.
+\newblock {\em arXiv preprint arXiv:1905.11946}, 2019.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{ronneberger2015u}
+Ronneberger, Olaf, Fischer, Philipp, and Brox, Thomas.
+\newblock U-net: Convolutional networks for biomedical image segmentation.
+\newblock  in {\em Medical image computing and computer-assisted
+  intervention--MICCAI 2015: 18th international conference, Munich, Germany,
+  October 5-9, 2015, proceedings, part III 18},  pp. 234--241. Springer, 2015.
 
 \end{LTRbibitems}
 

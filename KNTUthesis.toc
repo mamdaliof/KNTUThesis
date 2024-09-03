@@ -2,8 +2,6 @@
 \setcounter {tocdepth}{-10}
 \contentsline {chapter}{فهرست اشکال}{ج}{section*.4}%
 \contentsline {chapter}{فهرست جداول}{د}{section*.5}%
-\par عنوان\hfill صفحه \par 
-\setcounter {tocdepth}{\SavedTocDepth }
 \contentsline {chapter}{\numberline {1}مقدمه}{1}{chapter.1}%
 \contentsline {section}{\numberline {1-1} خونریزی درون‌جمجمه‌ای و اهمیت آن}{2}{section.1.1}%
 \contentsline {section}{\numberline {1-2}انواع خونریزی درون‌جمجمه‌ای}{2}{section.1.2}%
@@ -18,6 +16,8 @@
 \contentsline {section}{\numberline {1-6}تحقیقات اخیر در زمینه یادگیری ماشین}{9}{section.1.6}%
 \contentsline {subsection}{\numberline {1-6-1}نقاط ضعف موجود در پژوهش‌های گذشته}{11}{subsection.1.6.1}%
 \contentsline {subsection}{\numberline {1-6-2}اهداف پژوهش}{11}{subsection.1.6.2}%
+\par عنوان\hfill صفحه \par 
+\setcounter {tocdepth}{\SavedTocDepth }
 \contentsline {chapter}{\numberline {2}روش‌ها و مجموعه‌داده}{13}{chapter.2}%
 \contentsline {section}{\numberline {2-1}بررسی آماری مجموعه داده}{14}{section.2.1}%
 \contentsline {section}{\numberline {2-2}پیش‌پردازش\LTRfootnote {Pre-process}}{18}{section.2.2}%
@@ -29,7 +29,21 @@
 \contentsline {subsubsection}{لایه‌های پرسپترون \LTRfootnote {Perceptron} چندلایه}{24}{section*.23}%
 \contentsline {subsubsection}{شبکه عصبی پیچشی \LTRfootnote {Convolutional Neural Network}}{24}{section*.24}%
 \contentsline {subsubsection}{بهینه‌سازها و الگوریتم \lr {Adam} }{25}{section*.25}%
-\contentsline {chapter}{منابع و مراجع}{26}{appendix*.26}%
-\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{32}{appendix*.27}%
-\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{34}{appendix*.28}%
+\contentsline {section}{\numberline {2-4}مدل‌های طبقه‌بندی در شبکه عصبی عمیق}{25}{section.2.4}%
+\contentsline {subsection}{\numberline {2-4-1}\lr {ResNet}}{25}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2-4-2}\lr {ResNeXt}}{27}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2-4-3}شبکه \lr {Squeeze-and-Excitation} \lr {(SENet)}}{27}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2-4-4}\lr {DenseNet}}{29}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2-4-5}\lr {EfficientNet}}{29}{subsection.2.4.5}%
+\contentsline {section}{\numberline {2-5}مدل‌های قطعه‌بندی در شبکه عصبی عمیق}{31}{section.2.5}%
+\contentsline {subsection}{\numberline {2-5-1}\lr {U-Net}}{31}{subsection.2.5.1}%
+\contentsline {section}{\numberline {2-6}پس‌پردازش}{32}{section.2.6}%
+\contentsline {section}{\numberline {2-7}روش پیشنهادی}{33}{section.2.7}%
+\contentsline {section}{\numberline {2-8}آموزش و تصمیم‌گیری}{34}{section.2.8}%
+\contentsline {subsection}{\numberline {2-8-1}طبقه‌بندی}{34}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2-8-2}قطعه‌بندی}{36}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2-8-3}سازوکار تصمیم‌گیری شورایی}{37}{subsection.2.8.3}%
+\contentsline {chapter}{منابع و مراجع}{39}{appendix*.35}%
+\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{45}{appendix*.36}%
+\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{48}{appendix*.37}%
 \contentsfinish 

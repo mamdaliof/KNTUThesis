@@ -19,44 +19,44 @@ Database file #1: references.bib
 -- This is a BibTeX style for XePersian: http://www.parsilatex.com
 
 Done.
-You've used 33 entries,
+You've used 40 entries,
             2198 wiz_defined-function locations,
-            768 strings with 13827 characters,
-and the built_in function-call counts, 9107 in all, are:
-= -- 648
-> -- 623
-< -- 1
-+ -- 221
-- -- 188
-* -- 741
-:= -- 1456
-add.period$ -- 102
-call.type$ -- 33
-change.case$ -- 33
+            802 strings with 15059 characters,
+and the built_in function-call counts, 11516 in all, are:
+= -- 869
+> -- 695
+< -- 6
++ -- 248
+- -- 208
+* -- 859
+:= -- 1745
+add.period$ -- 124
+call.type$ -- 40
+change.case$ -- 40
 chr.to.int$ -- 0
-cite$ -- 33
-duplicate$ -- 280
-empty$ -- 735
-format.name$ -- 188
-if$ -- 1986
+cite$ -- 40
+duplicate$ -- 404
+empty$ -- 966
+format.name$ -- 208
+if$ -- 2604
 int.to.chr$ -- 0
-int.to.str$ -- 33
-missing$ -- 120
-newline$ -- 305
-num.names$ -- 30
-pop$ -- 84
+int.to.str$ -- 40
+missing$ -- 155
+newline$ -- 368
+num.names$ -- 36
+pop$ -- 125
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 108
+skip$ -- 201
 stack$ -- 0
-substring$ -- 544
-swap$ -- 43
-text.length$ -- 1
+substring$ -- 728
+swap$ -- 106
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 4
 type$ -- 0
 warning$ -- 0
-while$ -- 71
-width$ -- 35
-write$ -- 460
+while$ -- 92
+width$ -- 42
+write$ -- 556
