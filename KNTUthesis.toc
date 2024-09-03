@@ -1,7 +1,7 @@
 \edef \SavedTocDepth {\the \value {tocdepth}}
 \setcounter {tocdepth}{-10}
 \contentsline {chapter}{فهرست اشکال}{د}{section*.4}%
-\contentsline {chapter}{فهرست جداول}{ه}{section*.5}%
+\contentsline {chapter}{فهرست جداول}{و}{section*.5}%
 \contentsline {chapter}{\numberline {1}مقدمه}{1}{chapter.1}%
 \contentsline {section}{\numberline {1-1} خونریزی درون‌جمجمه‌ای و اهمیت آن}{2}{section.1.1}%
 \contentsline {section}{\numberline {1-2}انواع خونریزی درون‌جمجمه‌ای}{2}{section.1.2}%
@@ -54,11 +54,11 @@
 \contentsline {subsection}{\numberline {3-1-7}\lr {Dice Coefficient}}{42}{subsection.3.1.7}%
 \contentsline {section}{\numberline {3-2}نتایج طبقه‌بندی}{42}{section.3.2}%
 \contentsline {subsection}{\numberline {3-2-1}نتایج برش‌محور }{42}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3-2-2}نتایج سطح بیمار (\lr {Patient-Level})}{43}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3-2-2}نتایج بیمارمحور}{43}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3-2-3}تحلیل بیشتر نتایج}{43}{subsection.3.2.3}%
-\contentsline {subsubsection}{تحلیل \lr {Grad-CAM}}{44}{section*.37}%
-\contentsline {subsubsection}{تحلیل \lr {t-SNE}}{44}{section*.38}%
-\contentsline {chapter}{منابع و مراجع}{45}{appendix*.39}%
-\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{51}{appendix*.40}%
-\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{54}{appendix*.41}%
+\contentsline {subsubsection}{تحلیل \lr {Grad-CAM}}{44}{section*.41}%
+\contentsline {subsubsection}{تحلیل \lr {t-SNE}}{45}{section*.43}%
+\contentsline {chapter}{منابع و مراجع}{48}{appendix*.45}%
+\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{55}{appendix*.46}%
+\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{58}{appendix*.47}%
 \contentsfinish 

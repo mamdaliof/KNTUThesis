@@ -74,6 +74,17 @@ Huang, Gao, Liu, Zhuang, Van Der~Maaten, Laurens, and Weinberger, Kilian~Q.
 
 \begin{LTRbibitems}
 \resetlatinfont
+\bibitem{ronneberger2015u}
+Ronneberger, Olaf, Fischer, Philipp, and Brox, Thomas.
+\newblock U-net: Convolutional networks for biomedical image segmentation.
+\newblock  in {\em Medical image computing and computer-assisted
+  intervention--MICCAI 2015: 18th international conference, Munich, Germany,
+  October 5-9, 2015, proceedings, part III 18},  pp. 234--241. Springer, 2015.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
 \bibitem{rsna_hemorrhage_detection_kaggle}
 Rsna intracranial hemorrhage detection.
 \newblock
@@ -435,12 +446,12 @@ Tan, Mingxing.
 
 \begin{LTRbibitems}
 \resetlatinfont
-\bibitem{ronneberger2015u}
-Ronneberger, Olaf, Fischer, Philipp, and Brox, Thomas.
-\newblock U-net: Convolutional networks for biomedical image segmentation.
-\newblock  in {\em Medical image computing and computer-assisted
-  intervention--MICCAI 2015: 18th international conference, Munich, Germany,
-  October 5-9, 2015, proceedings, part III 18},  pp. 234--241. Springer, 2015.
+\bibitem{Ganeshkumar2022Identification}
+Ganeshkumar, M, Ravi, Vinayakumar, Sowmya, V, Gopalakrishnan, EA, Soman, KP,
+  and Chakraborty, Chinmay.
+\newblock Identification of intracranial haemorrhage (ich) using resnet with
+  data augmentation using cyclegan and ich segmentation using segan.
+\newblock {\em Multimedia Tools and Applications}, 81(25):36257--36273, 2022.
 
 \end{LTRbibitems}
 

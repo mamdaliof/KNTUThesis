@@ -23,5 +23,11 @@
 \contentsline {figure}{\numberline {2-17}{\ignorespaces روندنمای روش پیشنهادی در این پژوهش}}{35}{figure.caption.32}%
 \contentsline {figure}{\numberline {2-18}{\ignorespaces سازوکار تصمیم‌گیری شورایی}}{37}{figure.caption.34}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3-1}{\ignorespaces نمودار امتیاز \lr {F1} نسبت به آستانه برای \lr {Fold}ها و میانگین آنها}}{44}{figure.caption.36}%
+\contentsline {figure}{\numberline {3-2}{\ignorespaces نمودارهای سازوکار شورایی روی مجموعه‌داده ارزیابی}}{44}{figure.caption.37}%
+\contentsline {figure}{\numberline {3-3}{\ignorespaces ماتریس آشفتگی نتایج برش‌محور}}{45}{figure.caption.38}%
+\contentsline {figure}{\numberline {3-4}{\ignorespaces ماتریس آشفتگیب یمارمحور سازوکار شورایی}}{46}{figure.caption.40}%
+\contentsline {figure}{\numberline {3-5}{\ignorespaces چند نمونه از تصاویر تولید شده توسط \lr {Grad-CAM}}}{47}{figure.caption.42}%
+\contentsline {figure}{\numberline {3-6}{\ignorespaces نمودارهای \lr {t-SNE} و مقایسه آنها با یکدیگر}}{47}{figure.caption.44}%
 \contentsfinish 
 \contentsfinish 

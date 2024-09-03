@@ -5,6 +5,8 @@ Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: chapter1.aux
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: chapter2.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: chapter3.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: unsrt-fa.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
@@ -19,44 +21,44 @@ Database file #1: references.bib
 -- This is a BibTeX style for XePersian: http://www.parsilatex.com
 
 Done.
-You've used 40 entries,
+You've used 41 entries,
             2198 wiz_defined-function locations,
-            802 strings with 15059 characters,
-and the built_in function-call counts, 11516 in all, are:
-= -- 869
-> -- 695
+            809 strings with 15418 characters,
+and the built_in function-call counts, 11860 in all, are:
+= -- 897
+> -- 715
 < -- 6
-+ -- 248
-- -- 208
-* -- 859
-:= -- 1745
-add.period$ -- 124
-call.type$ -- 40
-change.case$ -- 40
++ -- 255
+- -- 214
+* -- 891
+:= -- 1798
+add.period$ -- 127
+call.type$ -- 41
+change.case$ -- 41
 chr.to.int$ -- 0
-cite$ -- 40
-duplicate$ -- 404
-empty$ -- 966
-format.name$ -- 208
-if$ -- 2604
+cite$ -- 41
+duplicate$ -- 413
+empty$ -- 994
+format.name$ -- 214
+if$ -- 2678
 int.to.chr$ -- 0
-int.to.str$ -- 40
-missing$ -- 155
-newline$ -- 368
-num.names$ -- 36
-pop$ -- 125
+int.to.str$ -- 41
+missing$ -- 159
+newline$ -- 377
+num.names$ -- 37
+pop$ -- 126
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 201
+skip$ -- 204
 stack$ -- 0
-substring$ -- 728
-swap$ -- 106
+substring$ -- 765
+swap$ -- 107
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 4
 type$ -- 0
 warning$ -- 0
-while$ -- 92
-width$ -- 42
-write$ -- 556
+while$ -- 95
+width$ -- 43
+write$ -- 570

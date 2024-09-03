@@ -4,7 +4,7 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {2-1}{\ignorespaces ضرایب مورد استفاده در جستجوی شبکه‌ای}}{36}{table.caption.33}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3-1}{\ignorespaces نتایج سطح برش مدل \lr {ResNet50}}}{43}{table.caption.35}%
-\contentsline {table}{\numberline {3-2}{\ignorespaces نتایج سطح بیمار مدل \lr {ResNet50}}}{43}{table.caption.36}%
+\contentsline {table}{\numberline {3-1}{\ignorespaces نتایج برش‌محور مدل \lr {ResNet50} برای آستانه تصمیم‌گیری $0.27$}}{43}{table.caption.35}%
+\contentsline {table}{\numberline {3-2}{\ignorespaces نتایج بیمارمحور مدل \lr {ResNet50} برای آستانه تصمیم‌گیری $0.27$}}{45}{table.caption.39}%
 \contentsfinish 
 \contentsfinish 

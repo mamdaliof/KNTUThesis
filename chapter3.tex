@@ -98,52 +98,161 @@
 
 \subsection{نتایج برش‌محور }
 پس از آموزش مدل طبقه‌بندی برای تمام 
-\lr{fold}ها،
+\lr{Fold}ها،
 نمودار امتیاز
 \lr{F1}
 نسبت‌به آستانه‌های متفاوت رسم شد و در گام بعدی میانگین این نمودارها محاسبه شد. در انتها بهترین آستانه روی میانگین این نمودار‌ها محاسبه شده و در محاسبه معیارهای مربوط به زیرمجموعه ارزیابی استفاده شده است.
-جدول \ref{tab:slice_level_results} نتایج به‌دست‌آمده از آموزش مدل \lr{ResNet50} و جزئیات هر یک از مراحل آموزشی را برای برش‌محور نشان می‌دهد. همانطور که در جدول مشاهده می‌شود، بهترین نتایج در مرحله 0 (\lr{Fold 0}) به‌دست آمده است که امتیاز \lr{F1} برابر با 0.62 را نشان می‌دهد. این نشان‌دهنده این است که توزیع داده‌ها در مجموعه‌های آموزشی و اعتبارسنجی این مرحله بیشتر شبیه به مجموعه آزمون است. در مقابل، مرحله 4 (\lr{Fold 4}) کمترین نتایج را به‌دست آورده، در حالی که نتایج مراحل دیگر با هم بیشتر هم‌خوانی دارند.
+ \autoref{tab:slice_level_results}
+  نتایج به‌دست‌آمده از آموزش مدل‌های \lr{ResNet50} و سازوکار شورا برای طبقه‌بندی برش‌محور نشان می‌دهد. همانطور که در جدول مشاهده می‌شود، بهترین نتایج در
+ \lr{Fold 0}
+  به‌دست آمده است که امتیاز 
+  \lr{F1}
+   برابر با
+  $0.62$
+ را نشان می‌دهد. این نشان‌دهنده این است که توزیع داده‌ها در مجموعه‌های آموزشی و اعتبارسنجی این 
+ \lr{Fold}
+  بیشتر شبیه به مجموعه آزمون است. در مقابل، 
+  \lr{Fold 4}
+   کمترین نتایج را به‌دست آورده، در حالی که نتایج مراحل دیگر با هم بیشتر هم‌خوانی دارند.
 
-همچنین، همانطور که در شکل \ref{fig:f1_over_threshold} مشاهده می‌شود، با استفاده از تکنیک \lr{Voting}، امتیاز \lr{F1} بهبود قابل توجهی پیدا کرده است که نشان‌دهنده بهبود حساسیت مدل است. حساسیت مدل (\lr{Sensitivity}) در سطح برش 0.94 بوده که یک دستاورد قابل توجه در مقایسه با سایر مطالعات است.
 
-\begin{table}[h!]
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[h]
 \centering
-\caption{نتایج سطح برش مدل \lr{ResNet50}}
+\caption{نتایج برش‌محور مدل \lr{ResNet50}
+برای آستانه تصمیم‌گیری
+$0.27$}
 \label{tab:slice_level_results}
-\begin{tabular}{|c|c|c|c|c|c|}
-\hline
-\textbf{مدل} & \textbf{حساسیت} & \textbf{اختصاصی} & \textbf{دقت} & \textbf{\lr{F1}} & \textbf{دقت کلی} \\ \hline
-\lr{ResNet50 Fold 0} & 0.78 & 0.93 & 0.51 & 0.62 & 0.91 \\ \hline
-\lr{ResNet50 Fold 1} & 0.68 & 0.90 & 0.38 & 0.49 & 0.88 \\ \hline
-\lr{ResNet50 Fold 2} & 0.60 & 0.89 & 0.33 & 0.42 & 0.86 \\ \hline
-\lr{ResNet50 Fold 3} & 0.86 & 0.89 & 0.41 & 0.55 & 0.89 \\ \hline
-\lr{ResNet50 Fold 4} & 0.32 & 0.96 & 0.42 & 0.36 & 0.90 \\ \hline
-\lr{Neethi et al. [19]} & 0.76 & - & 0.69 & 0.67 & 0.54 \\ \hline
-\lr{ResNet50 Voting} & 0.94 & 0.91 & 0.49 & 0.64 & 0.91 \\ \hline
-\end{tabular}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\textbf{مدل}           & \textbf{\lr{Sensitivity}} & \textbf{\lr{Specificity}} & \textbf{\lr{Precision}} & \textbf{\lr{F1}}   & \textbf{\lr{Accuracy}} \\ \hline
+\lr{ResNet50 Fold 0}        & $0.78$            & $0.93$             & $0.51$         & $0.62$ & $0.91$    \\
+\lr{ResNet50 Fold 1}        & $0.68$            & $0.90$             & $0.38$         & $0.49$ & $0.88$    \\
+\lr{ResNet50 Fold 2}        & $0.60$            & $0.89$             & $0.33$         & $0.42$ & $0.86$    \\
+\lr{ResNet50 Fold 3}        & $0.86$            & $0.89$             & $0.41$         & $0.55$ & $0.89$    \\
+\lr{ResNet50 Fold 4}        & $0.32$            & $\mathbf{0.96}$             & $0.42$         & $0.36$ & $0.90$    \\ \hline
+\lr{Neethi et al.} {[}\lr{19}{]} & $0.76$            & $-$                & $\mathbf{0.69}$         & $\mathbf{0.67}$ & $0.54$    \\
+\lr{someone}                & $1$               & $2$                & $3$            & $4$    & $5$       \\ \hline
+\lr{ResNet50 Voting}        & $\mathbf{0.94}$            & $0.91$             & $0.49$         & $0.64$ & $\mathbf{0.91}$   
+\end{tabular}%
+}
 \end{table}
 
-\subsection{نتایج سطح بیمار (\lr{Patient-Level})}
 
-در سطح بیمار (\lr{Patient-Level})، طبقه‌بندی خونریزی بر اساس پیش‌بینی‌های سطح برش انجام شده است. یک بیمار در صورتی دارای \lr{ICH} در نظر گرفته می‌شود که حداقل یک برش از سی‌تی‌اسکن او به عنوان \lr{ICH} شناسایی شود. نتایج به‌دست‌آمده نشان می‌دهند که مدل \lr{ResNet50} در سطح بیمار با استفاده از تکنیک \lr{Voting}، به حساسیت 1.00، اختصاصی 0.80، دقت 0.75، امتیاز \lr{F1} برابر با 0.86 و دقت کلی 0.88 دست یافته است که از تمامی معیارهای گزارش شده در سایر مطالعات، برتری داشته است.
 
-جدول \ref{tab:patient_level_results} نتایج سطح بیمار مدل \lr{ResNet50} را برای هر مرحله آموزشی نشان می‌دهد.
-
-\begin{table}[h!]
+همانطور که در 
+\ref{fig:ch3-f1-vs-th-cls}
+ مشاهده می‌شود، با استفاده از سازوکار شورایی، امتیاز \lr{F1} بهبود قابل توجهی پیدا کرده است که نشان‌دهنده بهبود عملکرد مدل طبقه‌بندی با استفاده از سازوکار شورایی است.
+ \lr{Sensitivity}
+  مدل به صورت برش‌محور 
+ $0.94$ 
+ بوده که یک دستاورد قابل توجه در مقایسه با سایر مطالعات است خصوصا در زمینه استفاده‌های پزشکی. نکته‌ای که باید به آن توجه کرد این است که مقادیر گزارش‌شده برای
+ \lr{Fold}های 
+ متفاوت،‌ به‌ازای آستانه‌های متفاوت می‌توانند مقادیر بهتری داشته باشند اما اعداد گزارش شده در بهترین آستانه برای میانگین نمودارها می‌باشد.
+\autoref{fig:ch3-metrics-cls}
+نمودارهای
+			\lr{Sensivity, Precision} و امتیاز\lr{F1}
+			به ازای آستانه‌های متفاوت را نشان می‌دهد و 
+\autoref{fig:ch3-metrics and pr cls}
+نمودار منحنی 
+\lr{Precision-Sensitivity}
+را نشان می‌دهد.
+\autoref{fig:ch3-s-cm}
+ماتریس آشفتگی مدل‌ها را نشان می‌دهد،‌ همانطور که مشخص است مدلی که از سازوکار شورایی استفاده می‌کند به صورت قابل توجهی عملکرد بهتری پیدا می‌کند.
+\begin{figure}[h]
 \centering
-\caption{نتایج سطح بیمار مدل \lr{ResNet50}}
+\includegraphics[width=1.0\linewidth]{Images/Chapter3/f1-vs-th-cls}
+\caption{نمودار امتیاز \lr{F1} نسبت به آستانه برای \lr{Fold}ها و میانگین آنها}
+\label{fig:ch3-f1-vs-th-cls}
+
+\end{figure}
+
+
+\begin{figure}[h!]
+		\centering % <-- added
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Images/Chapter3/metrics-cls.png}
+			\caption{}
+			
+			\label{fig:ch3-metrics-cls}
+		\end{subfigure}\hfil % <-- 
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\linewidth]{Images/Chapter3/pr-cls.png}
+			\caption{}
+			\label{fig:ch3-pr-cls}
+		\end{subfigure}\hfil % <-- added
+		\caption{نمودارهای سازوکار شورایی روی مجموعه‌داده ارزیابی}
+		\label{fig:ch3-metrics and pr cls}
+\end{figure}
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1.0\linewidth]{Images/Chapter3/s-cm}
+\caption{ماتریس آشفتگی نتایج برش‌محور}
+\label{fig:ch3-s-cm}
+\end{figure}
+
+
+
+
+
+
+
+\subsection{نتایج بیمارمحور}
+
+طبقه‌بندی بیمارمحور خونریزی درون‌جمجمه‌ای بر اساس پیش‌بینی‌های برش‌محور انجام شده است. یک بیمار در صورتی دارای خونریزی درون‌جمجمه‌ای در نظر گرفته می‌شود اگر حداقل یک برش از سی‌تی‌اسکن او دارای علائم خونریزی شناسایی شود. نتایج به‌دست‌آمده نشان می‌دهند که مدل 
+\lr{ResNet50}
+ در بررسی بیمارمحور سی‌تی‌اسکن‌ها، با استفاده از روش شورایی، به 
+ \lr{Sensitivity}
+  برابر با
+   $1.00$، 
+   \lr{Specificity}
+برابر با
+     $0.80$، \lr{Precision}
+      برابر با
+       $0.75$،
+        امتیاز
+         \lr{F1}
+          برابر با
+           $0.86$
+            و 
+            \lr{Accuracy}
+             برابر با
+              $0.88$ 
+              دست یافته است که از تمامی معیارهای گزارش شده در سایر مطالعات، نتیجه بهتری کسب کرده است.
+جدول \ref{tab:patient_level_results} نتایج بیمارمحور مدل \lr{ResNet50} را برای هر مرحله آموزشی نشان می‌دهد.
+\autoref{fig:ch3-p-cm}
+ماتریس آشفتگی بیمارمحور را نشان می‌دهد که از 16 بیمار در مجموعه ارزیابی قرار داشته‌اند که همه 6 بیمار دارای خونریزی درست تشخیص داده شده‌اند.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[]
+\centering
+\caption{نتایج بیمارمحور مدل \lr{ResNet50}
+برای آستانه تصمیم‌گیری 
+$0.27$}
 \label{tab:patient_level_results}
-\begin{tabular}{|c|c|c|c|c|c|}
-\hline
-\textbf{مدل} & \textbf{حساسیت} & \textbf{اختصاصی} & \textbf{دقت} & \textbf{F1} & \textbf{دقت کلی} \\ \hline
-\lr{ResNet50 Fold 1} & 1.00 & 0.60 & 0.60 & 0.75 & 0.75 \\ \hline
-\lr{ResNet50 Fold 2} & 1.00 & 0.60 & 0.60 & 0.75 & 0.75 \\ \hline
-\lr{ResNet50 Fold 3} & 1.00 & 0.60 & 0.60 & 0.75 & 0.75 \\ \hline
-\lr{ResNet50 Fold 4} & 0.83 & 0.80 & 0.71 & 0.77 & 0.81 \\ \hline
-\lr{Kyung et al. [14]} & 0.97 & 0.74 & - & 0.84 & - \\ \hline
-\lr{ResNet50 Voting} & 1.00 & 0.80 & 0.75 & 0.86 & 0.88 \\ \hline
-\end{tabular}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllll}
+\textbf{مدل}          & \textbf{\lr{Sensitivity}} & \textbf{\lr{Specificity}} & \textbf{\lr{Precision}} & \textbf{\lr{F1}}            & \textbf{\lr{Accuracy}}      \\ \hline
+\lr{ResNet50 Fold 1}       & $1.00$                 & $0.60$                 & $0.60$               & $0.75$          & $0.75$          \\
+\lr{ResNet50 Fold 2}       & $1.00$                 & $0.60$                 & $0.60$               & $0.75$          & $0.75$          \\
+\lr{ResNet50 Fold 3}       & $1.00$                 & $0.60$                 & $0.60$               & $0.75$          & $0.75$          \\
+\lr{ResNet50 Fold 4}       & $0.83$                 & $0.80$                 & $0.71$               & $0.77$          & $0.81$          \\ \hline
+\lr{Kyung et al.} {[}\lr{14}{]} & $0.97$                 & $0.74$                 & $-$                  & $0.84$          & $-$             \\ \hline
+\lr{ResNet50 Voting}       & $\mathbf{1.00}$        & $\mathbf{0.80}$        & $\mathbf{0.75}$      & $\mathbf{0.86}$ & $\mathbf{0.88}$
+\end{tabular}%
+}
 \end{table}
+\begin{figure}[h]
+\centering
+\includegraphics[width=1.0\linewidth]{Images/Chapter3/p-cm}
+\caption{ماتریس آشفتگیب یمارمحور سازوکار شورایی}
+\label{fig:ch3-p-cm}
+\end{figure}
+
 
 \subsection{تحلیل بیشتر نتایج}
 
@@ -151,12 +260,67 @@
 
 \subsubsection{تحلیل \lr{Grad-CAM}}
 
-تکنیک \lr{Grad-CAM} (\lr{Gradient-weighted Class Activation Mapping}) به عنوان یک ابزار قدرتمند برای تفسیر مدل‌های شبکه عصبی عمیق استفاده می‌شود. این تکنیک به ما اجازه می‌دهد تا ببینیم کدام بخش‌های تصویر ورودی بیشتر در تصمیم‌گیری مدل تأثیر داشته‌اند. در این پروژه، از \lr{Grad-CAM} برای ایجاد نقشه‌های حرارتی استفاده شده است که نواحی مهم تصاویر سی‌تی‌اسکن که منجر به تشخیص \lr{ICH} توسط مدل شده‌اند را برجسته می‌کند. شکل \ref{fig:grad_cam} نمونه‌ای از این نقشه‌های حرارتی را نشان می‌دهد که به وضوح مشخص می‌کند که مدل چگونه نواحی مختلف تصویر را برای تشخیص \lr{ICH} مورد ارزیابی قرار داده است.
+تکنیک 
+\lr{Gradient-weighted Class Activation Mapping}
+(\lr{Grad-CAM})
+ به عنوان یک ابزار قدرتمند برای تفسیر مدل‌های شبکه عصبی عمیق استفاده می‌شود. این تکنیک به ما اجازه می‌دهد تا ببینیم کدام بخش‌های تصویر ورودی، بیشتر در تصمیم‌گیری مدل تأثیر داشته‌اند. در این پروژه، از روش
+ \lr{Grad-CAM}
+  برای افزایش تفسیرپذیری مدل‌های طبقه‌بندی به کمک ایجاد تصویر استفاده شده است که نواحی مهم برش‌های سی‌تی‌اسکن که منجر به تشخیص خونریزی توسط مدل شده‌اند را مشخص می‌‌کند.  
+  \autoref{fig:ch3-gradcam} 
+  نمونه‌ای از این نقشه‌های حرارتی را نشان می‌دهد که به وضوح مشخص می‌کند که مدل چگونه نواحی مختلف تصویر را برای تشخیص \lr{ICH} مورد ارزیابی قرار داده است.
+\begin{figure}[h]
+\centering
+\includegraphics[width=1.0\linewidth]{Images/Chapter3/GradCam}
+\caption{چند نمونه از تصاویر تولید شده توسط  \lr{Grad-CAM}}
+\label{fig:ch3-gradcam}
+\end{figure}
 
 \subsubsection{تحلیل \lr{t-SNE}}
 
-تکنیک \lr{t-SNE} (\lr{t-Distributed Stochastic Neighbor Embedding}) یک روش برای کاهش ابعاد و تجسم داده‌های با ابعاد بالا است. در این پروژه، از \lr{t-SNE} برای تجسم توزیع ویژگی‌های استخراج‌شده از مدل \lr{ResNet50} استفاده شده است. شکل \ref{fig:tsne_representation} نشان‌دهنده توزیع ویژگی‌های تصاویر سی‌تی‌اسکن در فضای دو‌بعدی است که به‌وضوح نشان می‌دهد چگونه مدل قادر است تصاویر حاوی \lr{ICH} و غیر \lr{ICH} را از هم تفکیک کند. این تجسم کمک می‌کند تا دیدگاه بهتری نسبت به نحوه عملکرد مدل در سطح ویژگی‌ها داشته باشیم و نقاط ضعف و قوت آن را بهتر درک کنیم.
+روش
+ \lr{t-Distributed Stochastic Neighbor Embedding} (\lr{t-SNE})
+  یک روش برای کاهش ابعاد و تجسم داده‌های با ابعاد بالا است. در این پژوهش، از
+   \lr{t-SNE}
+    برای تجسم توزیع ویژگی‌های استخراج‌شده از مدل \lr{ResNet50} 
+    استفاده شده است تا نشان داده شود که آموزش مدل، باعث تولید ویژگی‌هایی شده است که تفکیک‌پذیری برش‌های سالم را از ناسالم زیاد کرده است. 
+     \autoref{fig:ch3-tsne}
+ نشان‌دهنده توزیع ویژگی‌های استخراجی با روش 
+ \lr{t-SNE}
+  از تصاویر سی‌تی‌اسکن در فضای دو‌بعدی است که 
+  \autoref{fig:ch3-tsne-before}
+  پراکندگی ویژگی‌ها از مدل طبقه‌بندی قبل از آموزش آن است و 
+    \autoref{fig:ch3-tsne-after}
+    بعد از آموزش مدل طبقه‌بندی است. 
+      \autoref{fig:ch3-tsne-before}
+  به‌وضوح نشان می‌دهد چگونه مدل قادر است تفکیک‌پذیری خطی را برای برش‌های حاوی خونریزی درون‌جمجمه‌ای ایجاد کند. این استخراج ویژگی کمک می‌کند تا دیدگاه بهتری نسبت به نحوه عملکرد مدل در سطح ویژگی‌ها داشته باشیم و نقاط ضعف و قوت آن را بهتر درک کنیم. 
+        \autoref{fig:ch3-tsne-other}
+نمودار 
+\lr{t-SNE}
+حاصل از مدل طبقه‌بندی 
+\lr{Ganeshkumar}\cite{Ganeshkumar2022Identification}
+و همکاران است که نشان می‌دهد مدل بدست‌آمده در پژوهش آنها، امکان تفکیک‌پذیری خطی را برای برش‌ها ایجاد نکرده است.
 
----
-
-This extended LaTeX code not only presents the classification results but also includes a detailed analysis of the t-SNE and Grad-CAM techniques used in your research. You can integrate the provided tables and figures into your LaTeX document by replacing the placeholders with the correct paths or figure numbers.
+\begin{figure}[h!]
+		\centering % <-- added
+		\begin{subfigure}{0.33\textwidth}
+			\includegraphics[width=\linewidth]{Images/Chapter3/tsne_vanilla.png}
+			\caption{قبل از آموزش}
+			\label{fig:ch3-tsne-before}
+		\end{subfigure}\hfil % <-- 
+		\begin{subfigure}{0.33\textwidth}
+			\includegraphics[width=\linewidth]{Images/Chapter3/tsne.png}
+			\caption{بعد از آموزش}
+			\label{fig:ch3-tsne-after}
+		\end{subfigure}\hfil % <-- added
+        \begin{subfigure}{0.33\textwidth}
+			\includegraphics[width=\linewidth]{Images/Chapter3/tsne-other.png}
+			\caption{مدل  
+			\lr{Ganeshkumar} 
+			\cite{Ganeshkumar2022Identification}}
+			\label{fig:ch3-tsne-other}
+        \end{subfigure}
+		\caption{نمودارهای 
+		\lr{t-SNE}
+		و مقایسه آنها با یکدیگر}
+		\label{fig:ch3-tsne}
+\end{figure}
