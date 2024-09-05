@@ -59,7 +59,10 @@
 \contentsline {subsubsection}{تحلیل \lr {Grad-CAM}}{47}{section*.44}%
 \contentsline {subsubsection}{تحلیل \lr {t-SNE}}{48}{section*.46}%
 \contentsline {section}{\numberline {3-3}نتایج قطعه‌بندی}{49}{section.3.3}%
-\contentsline {chapter}{منابع و مراجع}{53}{appendix*.51}%
-\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{60}{appendix*.52}%
-\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{63}{appendix*.53}%
+\contentsline {chapter}{\numberline {4}توضیحات و نتیجه‌گیری}{53}{chapter.4}%
+\contentsline {section}{\numberline {4-1}توضیحات}{54}{section.4.1}%
+\contentsline {section}{\numberline {4-2}نتیجه‌گیری}{55}{section.4.2}%
+\contentsline {chapter}{منابع و مراجع}{57}{appendix*.51}%
+\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{64}{appendix*.52}%
+\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{67}{appendix*.53}%
 \contentsfinish 

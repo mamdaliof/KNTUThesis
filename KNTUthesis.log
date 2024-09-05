@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.12) (preloaded format=xelatex 2024.5.17)  5 SEP 2024 13:12
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.12) (preloaded format=xelatex 2024.5.17)  5 SEP 2024 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1506,8 +1506,8 @@ Package amsthm Warning: Unknown theoremstyle `theorem' on input line 144.
 LaTeX Warning: Unused global option(s):
     [oneside,12pt].
 
-(KNTUthesis.aux (chapter1.aux) (chapter2.aux) (chapter3.aux) (dicfa2en.aux)
-(dicen2fa.aux) (en-abstract.aux))
+(KNTUthesis.aux (chapter1.aux) (chapter2.aux) (chapter3.aux) (chapter4.aux)
+(dicfa2en.aux) (dicen2fa.aux) (en-abstract.aux))
 \openout1 = `KNTUthesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -3762,6 +3762,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
+Underfull \hbox (badness 1082) in paragraph at lines 138--143
+[]\TU/BNazanin.ttf(0)/m/n/12 مجموعه‌داده‌ی []\TU/times(0)/m/n/12 MosMed[]\TU/BN
+azanin.ttf(0)/m/n/12 [[]]، یک مجموعه‌داده خونریزی درون‌جمجمه‌ای است که در روسیه
+[]
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3806,7 +3812,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9]
-Underfull \hbox (badness 1205) in paragraph at lines 213--284
+Underfull \hbox (badness 1205) in paragraph at lines 219--290
 [][][]\TU/times(0)/m/n/12 Neethi[]\TU/BNazanin.ttf(0)/m/n/12 [[]] و همکاران مرو
 ری بر روش‌های مختلف یادگیری عمیق انجام داده‌اند که از[]
  []
@@ -4598,7 +4604,58 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[52] (KNTUthesis.bbl
+[52]
+\openout2 = `chapter4.aux'.
+
+ (chapter4.tex
+فصل 4.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[53
+
+
+
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[54]
+Underfull \hbox (badness 2573) in paragraph at lines 36--37
+[]\TU/BNazanin.ttf(0)/m/n/12 در این پایان‌نامه، یک روش دومرحله‌ای برای شناسایی 
+و قطعه‌بندی خودکار خونریزی‌های[]
+ []
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[55]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[56] (KNTUthesis.bbl
 LaTeX Font Info:    Font shape `TU/BNazanin.ttf(0)/m/n' will be
 (Font)              scaled to size 29.85593pt on input line 4.
 Package microtype Info: Character `A' is missing
@@ -4728,7 +4785,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--33
 LaTeX Font Warning: Font shape `TU/times(0)/m/it' undefined
 (Font)              using `TU/times(0)/m/n' instead on input line 50.
 
-[53
+[57
 
 
 
@@ -4753,7 +4810,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[54]
+[58]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4762,7 +4819,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[55]
+[59]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4771,7 +4828,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[56]
+[60]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4780,7 +4837,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[57]
+[61]
 Underfull \hbox (badness 10000) in paragraph at lines 407--413
 [][]\TU/times(0)/m/it/12 Efimov, Vyacheslav.  Understanding Deep Learning Opti-
 []
@@ -4830,7 +4887,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[58])
+[62])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4839,7 +4896,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[59]
+[63]
 \openout2 = `dicfa2en.aux'.
 
  (dicfa2en.tex
@@ -4847,10 +4904,23 @@ Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
 ;script=arab;mapping=persian-tex-text;!
 Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
 ;script=arab;mapping=persian-tex-text;!
-[60
+[64
 
 
 ]
+Missing character: There is no p in font [Fonts/B Nazanin Bold.ttf]/OT:language
+=dflt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no p in font [Fonts/B Nazanin Bold.ttf]/OT:language
+=dflt;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[65]
 Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
 ;script=arab;mapping=persian-tex-text;!
 Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
@@ -4863,20 +4933,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[61]
-Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
-;script=arab;mapping=persian-tex-text;!
-Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
-;script=arab;mapping=persian-tex-text;!
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[62])
+[66])
 \openout2 = `dicen2fa.aux'.
 
  (dicen2fa.tex
@@ -4884,7 +4941,7 @@ Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
 ;script=arab;mapping=persian-tex-text;!
 Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
 ;script=arab;mapping=persian-tex-text;!
-[63
+[67
 
 
 
@@ -4903,22 +4960,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[64]
+[68]
 No file KNTUthesis.ind.
 \openout2 = `en-abstract.aux'.
 
-(en-abstract.tex) [65
+(en-abstract.tex) [69
 
 
 
 ] (en_title.tex
 File: en-logo.png Graphic file (type bmp)
 <en-logo.png>
- [66
+ [70
 
 
 ]) (KNTUthesis.aux (chapter1.aux)
-(chapter2.aux) (chapter3.aux) (dicfa2en.aux) (dicen2fa.aux) (en-abstract.aux))
+(chapter2.aux) (chapter3.aux) (chapter4.aux) (dicfa2en.aux) (dicen2fa.aux)
+(en-abstract.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2024-01-04>
@@ -4931,15 +4989,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `KNTUthesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8A7D9C7C9B5B19402830495BF653EC66;10451.
+(rerunfilecheck)             Checksum: 2CC6AE068326B5406E4A2EC9AB8C3435;10901.
  ) 
 Here is how much of TeX's memory you used:
- 37808 strings out of 409616
- 772344 string characters out of 5776834
+ 37841 strings out of 409616
+ 773032 string characters out of 5776834
  1943177 words of memory out of 5000000
- 59077 multiletter control sequences out of 15000+600000
+ 59103 multiletter control sequences out of 15000+600000
  569507 words of font info for 162 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,18n,110p,2409b,747s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on KNTUthesis.pdf (78 pages).
+Output written on KNTUthesis.pdf (82 pages).
