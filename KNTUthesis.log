@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.12) (preloaded format=xelatex 2024.5.17)  4 SEP 2024 02:05
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.12) (preloaded format=xelatex 2024.5.17)  5 SEP 2024 13:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4011,20 +4011,8 @@ File: Images/Chapter2/slice hist.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Font Info:    Font shape `TU/Yas.ttf(0)/m/n' will be
-(Font)              scaled to size 19.0081pt on input line 148.
-LaTeX Font Info:    Font shape `TU/Yas.ttf(0)/bx/n' in size <17.28> not availab
-le
-(Font)              Font shape `TU/Yas.ttf(0)/b/n' tried instead on input line 
-148.
-LaTeX Font Info:    Font shape `TU/Yas.ttf(0)/b/n' will be
-(Font)              scaled to size 19.0081pt on input line 148.
-LaTeX Font Info:    Font shape `TU/Yas.ttf(0)/m/it' will be
-(Font)              scaled to size 19.0081pt on input line 148.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 148.
-
+File: Images/Chapter2/whole_heatmap.png Graphic file (type bmp)
+<Images/Chapter2/whole_heatmap.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4034,6 +4022,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Images/chapter2/fold0_heatmap.png Graphic file (type bmp)
+<Images/chapter2/fold0_heatmap.png>
+File: Images/chapter2/fold1_heatmap.png Graphic file (type bmp)
+<Images/chapter2/fold1_heatmap.png>
+File: Images/chapter2/fold2_heatmap.png Graphic file (type bmp)
+<Images/chapter2/fold2_heatmap.png>
+File: Images/chapter2/fold3_heatmap.png Graphic file (type bmp)
+<Images/chapter2/fold3_heatmap.png>
+File: Images/chapter2/fold4_heatmap.png Graphic file (type bmp)
+<Images/chapter2/fold4_heatmap.png>
+File: Images/chapter2/test_heatmap.png Graphic file (type bmp)
+<Images/chapter2/test_heatmap.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Font shape `TU/Yas.ttf(0)/m/n' will be
+(Font)              scaled to size 19.0081pt on input line 207.
+LaTeX Font Info:    Font shape `TU/Yas.ttf(0)/bx/n' in size <17.28> not availab
+le
+(Font)              Font shape `TU/Yas.ttf(0)/b/n' tried instead on input line 
+207.
+LaTeX Font Info:    Font shape `TU/Yas.ttf(0)/b/n' will be
+(Font)              scaled to size 19.0081pt on input line 207.
+LaTeX Font Info:    Font shape `TU/Yas.ttf(0)/m/it' will be
+(Font)              scaled to size 19.0081pt on input line 207.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 207.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4055,19 +4075,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19]
-File: Images/chapter2/before_processing_no_caption.png Graphic file (type bmp)
-<Images/chapter2/before_processing_no_caption.png>
-File: Images/chapter2/brain_window_no_caption.png Graphic file (type bmp)
-<Images/chapter2/brain_window_no_caption.png>
-File: Images/chapter2/bone_window_no_caption.png Graphic file (type bmp)
-<Images/chapter2/bone_window_no_caption.png>
-File: Images/chapter2/subdural_window_no_caption.png Graphic file (type bmp)
-<Images/chapter2/subdural_window_no_caption.png>
-File: Images/chapter2/selected_window_no_caption.png Graphic file (type bmp)
-<Images/chapter2/selected_window_no_caption.png>
-File: Images/chapter2/bleed_location_no_caption.png Graphic file (type bmp)
-<Images/chapter2/bleed_location_no_caption.png>
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4086,8 +4093,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [21]
-File: Images/Chapter2/neuron.png Graphic file (type bmp)
-<Images/Chapter2/neuron.png>
+File: Images/chapter2/before_processing_no_caption.png Graphic file (type bmp)
+<Images/chapter2/before_processing_no_caption.png>
+File: Images/chapter2/brain_window_no_caption.png Graphic file (type bmp)
+<Images/chapter2/brain_window_no_caption.png>
+File: Images/chapter2/bone_window_no_caption.png Graphic file (type bmp)
+<Images/chapter2/bone_window_no_caption.png>
+File: Images/chapter2/subdural_window_no_caption.png Graphic file (type bmp)
+<Images/chapter2/subdural_window_no_caption.png>
+File: Images/chapter2/selected_window_no_caption.png Graphic file (type bmp)
+<Images/chapter2/selected_window_no_caption.png>
+File: Images/chapter2/bleed_location_no_caption.png Graphic file (type bmp)
+<Images/chapter2/bleed_location_no_caption.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4107,6 +4127,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23]
+File: Images/Chapter2/neuron.png Graphic file (type bmp)
+<Images/Chapter2/neuron.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4125,6 +4151,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [25]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27]
 File: Images/Chapter2/ResBlock.png Graphic file (type bmp)
 <Images/Chapter2/ResBlock.png>
 
@@ -4136,16 +4180,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26]
+[28]
 File: Images/Chapter2/resnext1.JPG Graphic file (type bmp)
 <Images/Chapter2/resnext1.JPG>
 File: Images/Chapter2/resnext2.JPG Graphic file (type bmp)
 <Images/Chapter2/resnext2.JPG>
 File: Images/Chapter2/resnext3.JPG Graphic file (type bmp)
 <Images/Chapter2/resnext3.JPG>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4155,7 +4196,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[27]
+[29]
 File: Images/Chapter2/squeeze and excitation.png Graphic file (type bmp)
 <Images/Chapter2/squeeze and excitation.png>
 
@@ -4167,36 +4208,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28]
+[30]
 File: Images/Chapter2/DenseNet.PNG Graphic file (type bmp)
 <Images/Chapter2/DenseNet.PNG>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[29]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[30]
-File: Images/Chapter2/U-Net.drawio.png Graphic file (type bmp)
-<Images/Chapter2/U-Net.drawio.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4207,12 +4221,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [31]
-File: Images/Chapter2/post-process mask.png Graphic file (type bmp)
-<Images/Chapter2/post-process mask.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4222,6 +4230,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [32]
+File: Images/Chapter2/U-Net.drawio.png Graphic file (type bmp)
+<Images/Chapter2/U-Net.drawio.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4231,12 +4242,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [33]
-File: Images/Chapter2/block diagram of 2 step .drawio.png Graphic file (type bm
-p)
-<Images/Chapter2/block diagram of 2 step .drawio.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+File: Images/Chapter2/post-process mask.png Graphic file (type bmp)
+<Images/Chapter2/post-process mask.png>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4247,6 +4254,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [34]
+File: Images/Chapter2/block diagram of 2 step .drawio.png Graphic file (type bm
+p)
+<Images/Chapter2/block diagram of 2 step .drawio.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4265,9 +4279,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [36]
-File: Images/Chapter2/decision_making.drawio.png Graphic file (type bmp)
-<Images/Chapter2/decision_making.drawio.png>
-)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4286,6 +4300,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [38]
+File: Images/Chapter2/decision_making.drawio.png Graphic file (type bmp)
+<Images/Chapter2/decision_making.drawio.png>
+File: Images/Chapter2/decision_making_seg.drawio.png Graphic file (type bmp)
+<Images/Chapter2/decision_making_seg.drawio.png>
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39]
 \openout2 = `chapter3.aux'.
 
  (chapter3.tex
@@ -4298,7 +4326,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[39
+[40
 
 
 
@@ -4312,21 +4340,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [41]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: Images/Chapter3/f1-vs-th-cls.png Graphic file (type bmp)
-<Images/Chapter3/f1-vs-th-cls.png>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4337,12 +4351,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [42]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[43]
+File: Images/Chapter3/f1-vs-th-cls.png Graphic file (type bmp)
+<Images/Chapter3/f1-vs-th-cls.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[44]
 File: Images/Chapter3/metrics-cls.png Graphic file (type bmp)
 <Images/Chapter3/metrics-cls.png>
 File: Images/Chapter3/pr-cls.png Graphic file (type bmp)
 <Images/Chapter3/pr-cls.png>
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -4353,36 +4386,103 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 231.
+               Default added (so using `tbp') on input line 241.
 
-File: Images/Chapter3/p-cm.png Graphic file (type bmp)
-<Images/Chapter3/p-cm.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: Images/Chapter3/GradCam.png Graphic file (type bmp)
-<Images/Chapter3/GradCam.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[43]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[44]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+LaTeX Font Info:    Font shape `TU/BNazanin.ttf(0)/m/n' will be
+(Font)              scaled to size 7.19998pt on input line 259.
+Package microtype Info: Character `A' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `F' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `J' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `K' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `L' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `T' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `V' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `W' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `X' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `Y' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `k' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `r' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `v' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `w' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `x' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `y' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `;' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `?' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `@' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `~ (= ~)' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textendash ' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textemdash ' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `_' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textbackslash ' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textless ' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textgreater ' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4392,6 +4492,48 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [45]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 291.
+
+File: Images/Chapter3/p-cm.png Graphic file (type bmp)
+<Images/Chapter3/p-cm.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[46]
+File: Images/Chapter3/GradCam.png Graphic file (type bmp)
+<Images/Chapter3/GradCam.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[47]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[48]
 File: Images/Chapter3/tsne_vanilla.png Graphic file (type bmp)
 <Images/Chapter3/tsne_vanilla.png>
 File: Images/Chapter3/tsne.png Graphic file (type bmp)
@@ -4399,10 +4541,44 @@ File: Images/Chapter3/tsne.png Graphic file (type bmp)
 File: Images/Chapter3/tsne-other.png Graphic file (type bmp)
 <Images/Chapter3/tsne-other.png>
 LaTeX Font Info:    Font shape `TU/Yas.ttf(0)/m/n' will be
-(Font)              scaled to size 12.04506pt on input line 319.
+(Font)              scaled to size 12.04506pt on input line 381.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[49]
+File: Images/Chapter3/seg-IoU-metrics.png Graphic file (type bmp)
+<Images/Chapter3/seg-IoU-metrics.png>
+File: Images/Chapter3/seg-Dice-metrics.png.png Graphic file (type bmp)
+<Images/Chapter3/seg-Dice-metrics.png.png>
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 458.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[50]
+File: Images/Chapter3/dice-th-seg.jpg Graphic file (type bmp)
+<Images/Chapter3/dice-th-seg.jpg>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
 
@@ -4413,7 +4589,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[46]
+[51]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4422,7 +4598,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[47] (KNTUthesis.bbl
+[52] (KNTUthesis.bbl
 LaTeX Font Info:    Font shape `TU/BNazanin.ttf(0)/m/n' will be
 (Font)              scaled to size 29.85593pt on input line 4.
 Package microtype Info: Character `A' is missing
@@ -4518,10 +4694,6 @@ Package microtype Info: Character `\textless ' is missing
 Package microtype Info: Character `\textgreater ' is missing
 (microtype)             in font `\TU/BNazanin.ttf(0)/m/n/24.88'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--23
 [][]\TU/times(0)/m/n/12 CT-Scans, DICOM files, Windowing Explained — kag-[]
@@ -4556,7 +4728,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--33
 LaTeX Font Warning: Font shape `TU/times(0)/m/it' undefined
 (Font)              using `TU/times(0)/m/n' instead on input line 50.
 
-[48
+[53
 
 
 
@@ -4581,7 +4753,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[49]
+[54]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4590,7 +4762,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[50]
+[55]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4599,7 +4771,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[51]
+[56]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4608,7 +4780,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[52]
+[57]
 Underfull \hbox (badness 10000) in paragraph at lines 407--413
 [][]\TU/times(0)/m/it/12 Efimov, Vyacheslav.  Understanding Deep Learning Opti-
 []
@@ -4658,7 +4830,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[53])
+[58])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4667,7 +4839,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[54]
+[59]
 \openout2 = `dicfa2en.aux'.
 
  (dicfa2en.tex
@@ -4675,7 +4847,7 @@ Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
 ;script=arab;mapping=persian-tex-text;!
 Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
 ;script=arab;mapping=persian-tex-text;!
-[55
+[60
 
 
 ]
@@ -4691,7 +4863,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[56]
+[61]
 Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
 ;script=arab;mapping=persian-tex-text;!
 Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
@@ -4704,7 +4876,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[57])
+[62])
 \openout2 = `dicen2fa.aux'.
 
  (dicen2fa.tex
@@ -4712,7 +4884,7 @@ Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
 ;script=arab;mapping=persian-tex-text;!
 Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
 ;script=arab;mapping=persian-tex-text;!
-[58
+[63
 
 
 
@@ -4731,18 +4903,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[59]
+[64]
 No file KNTUthesis.ind.
 \openout2 = `en-abstract.aux'.
 
-(en-abstract.tex) [60
+(en-abstract.tex) [65
 
 
 
 ] (en_title.tex
 File: en-logo.png Graphic file (type bmp)
 <en-logo.png>
- [61
+ [66
 
 
 ]) (KNTUthesis.aux (chapter1.aux)
@@ -4759,15 +4931,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `KNTUthesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9A93DE167FADA2A8391CDC7AC47A2560;10276.
+(rerunfilecheck)             Checksum: 8A7D9C7C9B5B19402830495BF653EC66;10451.
  ) 
 Here is how much of TeX's memory you used:
- 37620 strings out of 409616
- 766115 string characters out of 5776834
+ 37808 strings out of 409616
+ 772344 string characters out of 5776834
  1943177 words of memory out of 5000000
- 58901 multiletter control sequences out of 15000+600000
- 569499 words of font info for 161 fonts, out of 8000000 for 9000
+ 59077 multiletter control sequences out of 15000+600000
+ 569507 words of font info for 162 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,15n,110p,2409b,747s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,18n,110p,2409b,747s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on KNTUthesis.pdf (73 pages).
+Output written on KNTUthesis.pdf (78 pages).

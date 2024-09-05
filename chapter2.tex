@@ -144,6 +144,65 @@ $100$
  \lr{PhysioNet}،
 به عنوان تنها مجموعه‌داده عمومی قطعه‌بندی خونریزی درون‌جمجمه‌ای، می‌تواند یک مجموعه‌داده معیار برای بررسی عملکرد مدل‌های پردازش تصویر باشد. 
 
+\autoref{fig:ch3-wholeheatmap}
+نمایش پراکندگی مکانی خونریزی درون‌جمجمه‌ای را نشان می‌دهد که در مجموعه‌داده
+\lr{PysioNet}
+وجود دارد. این پراکندگی نشان می‌دهد که خونریزی درون‌جمجمه‌ای تنها در قسمت‌های خاصی از برش‌های سی‌تی‌اسکن اتفاق می‌افتد و از طرف دیگر احتمال وجوذ خونریزی در اطراف جمجمه و ناحیه شقیقه،‌ بیشتر از پیشانی و پشت سر می‌باشد.
+\autoref{fig:heatmaps}
+نمایش زیرمجموعه‌های متفاوتی است که در فرایند آموزش و ارزیابی مدل دخیل بوده‌اند. باید توجه داشت که در این تصویر، نقشه پراکندگی مربوط‌ به هر 
+\lr{Fold}
+نشان‌دهنده زیرمجموعه آموزش به‌ازای آن 
+\lr{Fold}
+است.  
+\begin{figure}[h]
+\centering
+\includegraphics[width=1.0\linewidth]{Images/Chapter2/whole_heatmap}
+\caption{ پراکندگی مکانی خونریزی در مجموعه‌داد
+\lr{PhysioNet}}
+\label{fig:ch3-wholeheatmap}
+\end{figure}
+
+
+\begin{figure}[h!]
+    \centering % Center the figure
+    \begin{subfigure}{0.33\textwidth}
+        \includegraphics[width=\linewidth]{Images/chapter2/fold0_heatmap.png}
+        \caption{\lr{Fold 0}}
+        \label{fig:fold0}
+    \end{subfigure}\hfil % Space between images
+    \begin{subfigure}{0.33\textwidth}
+        \includegraphics[width=\linewidth]{Images/chapter2/fold1_heatmap.png}
+        \caption{\lr{Fold 1}}
+        \label{fig:fold1}
+    \end{subfigure}\hfil
+    \begin{subfigure}{0.33\textwidth}
+        \includegraphics[width=\linewidth]{Images/chapter2/fold2_heatmap.png}
+        \caption{\lr{Fold 2}}
+        \label{fig:fold2}
+    \end{subfigure}
+
+    \vspace{1em} % Add vertical space between rows
+
+    \begin{subfigure}{0.33\textwidth}
+        \includegraphics[width=\linewidth]{Images/chapter2/fold3_heatmap.png}
+        \caption{\lr{Fold 3}}
+        \label{fig:fold3}
+    \end{subfigure}\hfil
+    \begin{subfigure}{0.33\textwidth}
+        \includegraphics[width=\linewidth]{Images/chapter2/fold4_heatmap.png}
+        \caption{\lr{Fold 4}}
+        \label{fig:fold4}
+    \end{subfigure}\hfil
+    \begin{subfigure}{0.33\textwidth}
+        \includegraphics[width=\linewidth]{Images/chapter2/test_heatmap.png}
+        \caption{مجموعه ارزیابی}
+        \label{fig:test}
+    \end{subfigure}
+
+    \caption{پراکندگی مکانی خونریزی در زیرمجموعه‌های متفاوت از مجموعه‌داده}
+    \label{fig:heatmaps}
+\end{figure}
+
 
 \section{پیش‌پردازش\protect\LTRfootnote{Pre-process}}
 
@@ -170,7 +229,7 @@ $100$
 مورد بررسی قرار می‌دهند که به این نوع از پیش‌پردازش تصاویر سی‌تی‌اسکن،‌پنجره‌گذاری
 \LTRfootnote{Windowing}
 می‌گویند. 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=1.0\linewidth]{Images/Chapter2/HU}
 \caption{اثر بافت‌های متفاوت در یکای
@@ -836,16 +895,25 @@ $3$، $4$، $5$ و $6$
 \label{ch2-decision-policy}
 استفاده از روش
 \lr{5-fold-cross-validation}
-برای ارزیابی مدل‌های شبکه‌ عصبی،‌ می‌تواند با یک سازوکار شورایی در لایه تصمیم‌گیری همراه شود که به موجب آن اثر بیش‌برازش روی مجموعه‌داده کاهش پیدا می‌کند. در این پژوهش،‌ یک روش شورایی ساده پیشنهاد شده است که به‌موجب آن، از پیش‌بینی احتمالاتی تمام مدل‌ها میانگین گرفته می‌شود و در انتها آستانه‌گذاری روی این میانگین اعمال می‌شود.
-
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=1.0\linewidth]{Images/Chapter2/decision_making.drawio}
-\caption{سازوکار تصمیم‌گیری شورایی}
-\label{fig:decisionmaking}
-\end{figure}
-
+برای ارزیابی مدل‌های شبکه‌ عصبی،‌ می‌تواند با یک سازوکار شورایی در لایه تصمیم‌گیری همراه شود که به موجب آن اثر بیش‌برازش روی مجموعه‌داده کاهش پیدا می‌کند. در این پژوهش،‌ یک روش شورایی ساده برای وظیفه طبقه‌بندی پیشنهاد شده است که به‌موجب آن، از پیش‌بینی احتمالاتی تمام مدل‌ها میانگین گرفته می‌شود و در انتها آستانه‌گذاری روی این میانگین اعمال می‌شود. در ادامه برای وظیفه قطعه‌بندی،‌ مراحل به گونه‌ای است که ابتدا برای هر مدل آستانه‌گذاری انجام شده و سپس بین آرای هر مدل رای گرفته می‌شود 
 \autoref{fig:decisionmaking}،
-عملکرد این روش را به صورت روند‌نما مشخص می‌کند. نکته‌ای که باید درمورد سازوکار تصمیم‌گیری در نظر داشت این است که این سازوکار هم در مدل قطعه‌بندی و هم در مدل طبقه‌بندی به صورت یکسان استفاده شده است.
+عملکرد این روش را به صورت روند‌نما مشخ می‌کند.
+
+
+\begin{figure}[h!]
+		\centering % <-- added
+		\begin{subfigure}{0.49\textwidth}
+			\includegraphics[width=\linewidth]{Images/Chapter2/decision_making.drawio}
+			\caption{سازوکار طبقه‌بندی}
+			\label{f61}
+		\end{subfigure}\hfil % <-- 
+		\begin{subfigure}{0.49\textwidth}
+			\includegraphics[width=\linewidth]{Images/Chapter2/decision_making_seg.drawio}
+			\caption{سازوکار قطعه‌بندی}
+			\label{f62}
+		\end{subfigure}\hfil % <-- added
+
+		\caption{سازوکار تصمیم‌گیری شورایی}
+		\label{fig:decisionmaking}
+\end{figure}
 

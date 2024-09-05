@@ -94,7 +94,11 @@
 در این بخش، نتایج حاصل از مدل‌های طبقه‌بندی خونریزی داخل‌جمجمه‌ای در تصاویر سی‌تی‌اسکن، بررسی و تحلیل شده‌اند. تمرکز اصلی آموزش مدر طبقه‌بندی بر روی بهینه‌سازی فراپارامترها برای مدل
  \lr{ResNet50}
   بوده است، که بهبودهای قابل توجهی در عملکرد مدل به‌ویژه در معیار \lr{Sensitivity}
-   به همراه داشته است.
+   به همراه داشته است. بهترین نتایج بدست آمده در جستجوی شبکه‌ای زمانی بدست می‌آید که ضریب افزایش مصنوعی داده برابر 
+   $3.3$
+و وزن تابع خطا
+\lr{Cross-entropy}
+برای برش‌های مثبت برابر 4 و برای برش‌های منفی برابر 1 است.
 
 \subsection{نتایج برش‌محور }
 پس از آموزش مدل طبقه‌بندی برای تمام 
@@ -113,7 +117,40 @@
  \lr{Fold}
   بیشتر شبیه به مجموعه آزمون است. در مقابل، 
   \lr{Fold 4}
-   کمترین نتایج را به‌دست آورده، در حالی که نتایج مراحل دیگر با هم بیشتر هم‌خوانی دارند.
+   کمترین نتایج را به‌دست آورده، در حالی که نتایج مراحل دیگر با هم بیشتر هم‌خوانی دارند. نتایج بدست آمده از روش شورایی، در مقایسه با نتایج گزارش‌شده توسط
+   \lr{Hssayeni}\cite{hssayeni2020intracranial}
+   و همکاران، در معیار
+   \lr{Sensitivity}
+3 درصد ضعیف‌تر عمل کرده‌است اما در معیار
+\lr{Specifity}
+41 درصد بهتر عمل کرده است. مقایسه این نتایج نشان می‌دهد که مدل پیشنهادی در این پژوهش، به صورت نسبی همانقدر که در تشخیص برش‌هایی که خونریزی درون‌جمجمه‌ای دارند درست عمل می‌کند، در تشخیص برش‌هایی که سالم هستند نیز درست عمل می‌‌کند اما 
+\lr{Hssayeni}
+و همکاران در تشخیص برش‌های سالم که تعداد آنها نیز بسیار زیاد هست،‌ ضعیف عمل کرده‌اند و 50درصد از این برش‌ها را دارای خونریزی درون‌جمجمه‌ای تشخیص داده‌اند. نکته‌ای که در مورد پژوهش آنها وجود دارد،‌ عدم ارائه بقیه معیارهای ارزیابی مدل می‌باشد که تحلیل و مقایسه‌ بیشتر این پژوهش را دشوار می‌سازد.
+پژوهش بعدی که در زمینه طبقه‌بندی برش‌های خونریزی درون‌جمجمه‌ای با استفاده از انتقال یادگیری عمل کرده است، مربوط به 
+\lr{Neethi}\cite{neethi2022stroke}
+است که از مدل 
+\lr{ResNet 50} 
+استفاده کرده‌اند. این پژوهش در معیار
+\lr{Precision}
+20 درصد و در معیار امتیاز
+\lr{F1}
+3 درصد بهتر عمل کرده‌است اما در معیار 
+\lr{Sensitivity}
+مدل آنها 18 درصد ضعیف‌تر و در معیار 
+\lr{Accuracy}
+مدل آنها 37 درصد ضعیف‌تر عمل کرده است. در تحلیل نتایج بدست‌آمده، از آنجایی که در زمینه پزشکی، تشخیص اشتباه یک نمونه دارای بیماری،‌ می‌تواند منجر به حوادث جبران‌ناپذیر شود، معیار 
+\lr{Sensitivity}
+مهم‌تر از معیار 
+\lr{Precision}
+می‌باشد که مدل پیشنهادی ما توانسته اختلاف بسیار زیادی در این معیار ایجاد کند. از طرف دیگر با توجه به عدد 
+\lr{Accuracy}
+گزارش شده، مشخص است که مدل پیشنهادی 
+\lr{Neethi}
+تنها نیمی از برش‌های تمام مجموعه‌داده را درست تشخیص داده که نشان دهنده تعداد خیلی کم 
+\lr{TN}
+و مقدار کم 
+\lr{Specificity}
+است که در پژوهش آنها گزارش نشده است. نکته‌ای که باید توجه داشت این است که مدل‌های استفاده شده در هر دو پژوهش یکسان است و تنها فراپارامتر‌های پیشنهادی ما باعث بهبود عملکرد مدل شده است.
 
 
 % Please add the following required packages to your document preamble:
@@ -126,15 +163,17 @@ $0.27$}
 \label{tab:slice_level_results}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{llllll}
-\textbf{مدل}           & \textbf{\lr{Sensitivity}} & \textbf{\lr{Specificity}} & \textbf{\lr{Precision}} & \textbf{\lr{F1}}   & \textbf{\lr{Accuracy}} \\ \hline
+\hline
+\multicolumn{1}{c}{\textbf{مدل}}           & \textbf{\lr{Sensitivity}} & \textbf{\lr{Specificity}} & \textbf{\lr{Precision}} & \textbf{\lr{F1}}   & \textbf{\lr{Accuracy}} \\ \hline
 \lr{ResNet50 Fold 0}        & $0.78$            & $0.93$             & $0.51$         & $0.62$ & $0.91$    \\
 \lr{ResNet50 Fold 1}        & $0.68$            & $0.90$             & $0.38$         & $0.49$ & $0.88$    \\
 \lr{ResNet50 Fold 2}        & $0.60$            & $0.89$             & $0.33$         & $0.42$ & $0.86$    \\
 \lr{ResNet50 Fold 3}        & $0.86$            & $0.89$             & $0.41$         & $0.55$ & $0.89$    \\
 \lr{ResNet50 Fold 4}        & $0.32$            & $\mathbf{0.96}$             & $0.42$         & $0.36$ & $0.90$    \\ \hline
-\lr{Neethi et al.} {[}\lr{19}{]} & $0.76$            & $-$                & $\mathbf{0.69}$         & $\mathbf{0.67}$ & $0.54$    \\
-\lr{someone}                & $1$               & $2$                & $3$            & $4$    & $5$       \\ \hline
-\lr{ResNet50 Voting}        & $\mathbf{0.94}$            & $0.91$             & $0.49$         & $0.64$ & $\mathbf{0.91}$   
+\lr{Neethi et al.}\cite{neethi2022stroke} & $0.76$            & $-$                & $\mathbf{0.69}$         & $\mathbf{0.67}$ & $0.54$    \\
+\lr{Hssayeni et al.}\cite{hssayeni2020intracranial}                & $0.97$               & $0.50$                & $-$            & $-$    & $-$       \\ \hline
+\lr{ResNet50} شورایی        & $\mathbf{0.94}$            & $0.91$             & $0.49$         & $0.64$ & $\mathbf{0.91}$   
+\\ \hline
 \end{tabular}%
 }
 \end{table}
@@ -142,7 +181,7 @@ $0.27$}
 
 
 همانطور که در 
-\ref{fig:ch3-f1-vs-th-cls}
+\autoref{fig:ch3-f1-vs-th-cls}
  مشاهده می‌شود، با استفاده از سازوکار شورایی، امتیاز \lr{F1} بهبود قابل توجهی پیدا کرده است که نشان‌دهنده بهبود عملکرد مدل طبقه‌بندی با استفاده از سازوکار شورایی است.
  \lr{Sensitivity}
   مدل به صورت برش‌محور 
@@ -159,7 +198,9 @@ $0.27$}
 \lr{Precision-Sensitivity}
 را نشان می‌دهد.
 \autoref{fig:ch3-s-cm}
-ماتریس آشفتگی مدل‌ها را نشان می‌دهد،‌ همانطور که مشخص است مدلی که از سازوکار شورایی استفاده می‌کند به صورت قابل توجهی عملکرد بهتری پیدا می‌کند.
+ماتریس آشفتگی مدل‌ها را نشان می‌دهد،‌ همانطور که مشخص است مدلی که از سازوکار شورایی استفاده می‌کند به صورت قابل توجهی عملکرد بهتری پیدا می‌کند. در انتها 
+\autoref{table:ch3-other models cls}
+عملکرد دیگر ساختارهای شبکه عصبی عمیق با استفاده از فراپارامترهای بدست آمده در این قسمت از پژوهش می‌باشد. همانطور که مشخص است این فراپارامتر‌ها باعث بهبود عملکرد تمامی مدل‌ها شده است.
 \begin{figure}[h]
 \centering
 \includegraphics[width=1.0\linewidth]{Images/Chapter3/f1-vs-th-cls}
@@ -195,9 +236,28 @@ $0.27$}
 \end{figure}
 
 
-
-
-
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[]
+\centering
+\caption{نتیجه استفاده از فراپارامترهای بدست آمده از جستجوی شبکه‌ای روی مدل‌های دیگر}
+\label{table:ch3-other models cls}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lclllll}
+\hline
+\multicolumn{1}{c}{\textbf{مدل}} & \textbf{فراپارامتر پیشنهادی} & \textbf{\lr{Sensitivity}} & \textbf{\lr{Specificity}} & \textbf{\lr{Precision}} & \textbf{\lr{F1}} & \textbf{\lr{Accuracy}} \\ \hline
+\lr{ResNet 50}      &  $\checkmark$                & $0.94$                 & $0.91$                 & $0.49$          & $0.64$          & $0.91$     \\
+\lr{ResNet 50}      &      $\times$           & $0.76$                 & $0.78$                 & $0.23$          & $0.36$          & $0.77$     \\
+\lr{VGG-16}         &   $\checkmark$               & $0.92$                 & $0.88$                 & $0.41$          & $0.56$          & $0.88$     \\
+\lr{VGG-16}         &       $\times$          & $0.88$                 & $0.76$                 & $0.25$          & $0.39$          & $0.77$     \\
+\lr{MobileNet-V2}   &   $\checkmark$               & $0.98$                 & $0.82$                 & $0.33$          & $0.50$          & $0.84$     \\
+\lr{MobileNet-V2}   &      $\times$           & $\mathbf{1.00}$           & $\mathbf{0.68}$        & $\mathbf{0.22}$ & $\mathbf{0.36}$ & $0.71$     \\
+\lr{Inception-V3}   &   $\checkmark$               & $0.64$                 & $0.90$                 & $0.36$          & $0.46$          & $0.88$     \\
+\lr{Inception-V3}   &     $\times$            & $0.88$                 & $0.78$                 & $0.27$          & $0.41$          & $0.79$    
+\\ \hline
+\end{tabular}%
+}
+\end{table}
 
 
 \subsection{نتایج بیمارمحور}
@@ -236,13 +296,15 @@ $0.27$}
 \label{tab:patient_level_results}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{llllll}
-\textbf{مدل}          & \textbf{\lr{Sensitivity}} & \textbf{\lr{Specificity}} & \textbf{\lr{Precision}} & \textbf{\lr{F1}}            & \textbf{\lr{Accuracy}}      \\ \hline
+\hline
+\multicolumn{1}{c}{\textbf{مدل}}          & \textbf{\lr{Sensitivity}} & \textbf{\lr{Specificity}} & \textbf{\lr{Precision}} & \textbf{\lr{F1}}            & \textbf{\lr{Accuracy}}      \\ \hline
 \lr{ResNet50 Fold 1}       & $1.00$                 & $0.60$                 & $0.60$               & $0.75$          & $0.75$          \\
 \lr{ResNet50 Fold 2}       & $1.00$                 & $0.60$                 & $0.60$               & $0.75$          & $0.75$          \\
 \lr{ResNet50 Fold 3}       & $1.00$                 & $0.60$                 & $0.60$               & $0.75$          & $0.75$          \\
 \lr{ResNet50 Fold 4}       & $0.83$                 & $0.80$                 & $0.71$               & $0.77$          & $0.81$          \\ \hline
-\lr{Kyung et al.} {[}\lr{14}{]} & $0.97$                 & $0.74$                 & $-$                  & $0.84$          & $-$             \\ \hline
+\lr{Kyung et al.}\cite{kyung2022improved} & $0.97$                 & $0.74$                 & $-$                  & $0.84$          & $-$             \\ \hline
 \lr{ResNet50 Voting}       & $\mathbf{1.00}$        & $\mathbf{0.80}$        & $\mathbf{0.75}$      & $\mathbf{0.86}$ & $\mathbf{0.88}$
+\\ \hline
 \end{tabular}%
 }
 \end{table}
@@ -324,3 +386,123 @@ $0.27$}
 		و مقایسه آنها با یکدیگر}
 		\label{fig:ch3-tsne}
 \end{figure}
+
+
+\section{نتایج قطعه‌بندی}
+در این قسمت به بررسی نتایج حاصل شده از آموزش مدل قطعه‌بندی 
+\lr{U-Net}
+ می‌پردازیم. نتیجه استفاده از جسجتوی شبکه‌ای به روی مدل 
+ \lr{‎U-Net}
+ نشان می‌دهد که مدل با رمزگذار 
+ \lr{SE-ResNeXt-101}
+که با استفاده از تابع خطا
+\lr{ِDice}
+آموزش دیده و میزان برش‌های دارای خونریزی آن، 5 برابر شده است، بهترین نتیجه را بدست آورده‌.
+ \autoref{fig:ch3-seg-training-graph}
+ منحنی‌های مربوط به آموزش مدل روی 
+ \lr{Fold 1}
+را نشان می‌دهد که در آن 
+ \texttt{Original test without post-process}،
+ مربوط به مجموعه‌داده ارزیابی است که از مدل طبقه‌بندی عبور داده نشده است و عملیات پس‌پردازش به روی آن انجام نشده است.
+ منحنی 
+ \texttt{Original test with post-process}
+ مربوط به مجموعه‌داده ارزیابی است که از مدل طبقه‌بندی عبور داده نشده‌ است اما عملیات پس‌پردازش به روی آن انجام شده است.
+منحنی 
+ \texttt{Reduced test with post-process}
+ مربوط به مجموعه‌داده ارزیابی است که از مدل طبقه‌بندی عبور داده شده و عملیات پس‌پردازش به روی آن انجام شده است.
+ همانطور که از نمودارهای مربوط به معیار
+ \lr{IoU}
+ در 
+ \autoref{fig:ch3-seg-IoU}
+ و معیار 
+ \lr{Dice}
+  در 
+  \autoref{fig:ch3-seg-Dice}
+  مشخص است،‌ پس‌پردازش پیشنهادی و روش دو مرحله‌ای هرکدام باعث بهبود چشم‌گیر نتایج مدل شبکه عصبی شده‌اند.
+ 
+ \begin{figure}[h!]
+ 		\centering % <-- added
+ 		\begin{subfigure}{0.49\textwidth}
+ 			\includegraphics[width=\linewidth]{Images/Chapter3/seg-IoU-metrics.png}
+ 			\caption{\lr{IoU}}
+ 			\label{fig:ch3-seg-IoU}
+ 		\end{subfigure}\hfil % <-- 
+ 		\begin{subfigure}{0.49\textwidth}
+ 			\includegraphics[width=\linewidth]{Images/Chapter3/seg-Dice-metrics.png.png}
+ 			\caption{\lr{Dice}}
+ 			\label{fig:ch3-seg-Dice}
+ 		\end{subfigure}\hfil % <-- added
+ 		\caption{یک نمونه از عملکرد روش پیشنهادی و پس‌پردازش در فرایند آموزش }
+ 		\label{fig:ch3-seg-training-graph}
+ \end{figure}
+ 
+ با درنظر گرفتن کمترین مقدار تابع خطا، بهترین
+ \lr{Epoch}
+ هر 
+ \lr{Fold}
+ انتخاب می‌شود و پس از آن برای تنظیم متغییرهای مربوط به سازوکار شورا، نمودارهای 
+ \lr{ِIoU}
+ و 
+ \lr{Dice}
+ نسبت به آستانه‌های متفاوت رسم می‌شود و بهترین آستانه بدست می‌آید.
+ 
+ \autoref{table:ch3-seg-results}
+ نتایج 
+ \lr{ّFold}ها،
+ روش شورایی و تحقیقات گذشته را نشان می‌دهد. همانطور که مشخص است روش مذکور توانسته معیار
+ \lr{Dice}
+ را نسبت به مطالعات پیشین بهبود ببخشید درحالی که مقدار 
+ \lr{IoU}
+ آن نیز به صورت کلی از آنها بهتر است.
+
+ \begin{table}[]
+ \centering
+ \caption{نتایج قطعه‌بندی تصاویر سی‌تی‌اسکن}
+ \label{table:ch3-seg-results}
+  \adjustbox{width=0.8\columnwidth,max totalheight=\textheight, keepaspectratio}{
+ \begin{tabular}{rllll}
+ \hline
+ \textbf{مدل \lr{U-Net}} & \textbf{} & \multicolumn{1}{r}{\textbf{\lr{IoU}}}  & \textbf{} & \multicolumn{1}{r}{\textbf{\lr{Dice}}} \\ \cline{2-5}
+                                                  & عادی      & دو مرحله‌ای    & عادی      & دو مرحله‌ای    \\ \hline
+ \lr{Fold 0}                                                       & $0.12$      & $0.21$          & $0.21$      & $0.35$          \\
+ \lr{Fold 1}                                                       & $0.17$      & $0.20$          & $0.29$      & $0.34$          \\
+ \lr{Fold 2}                                                       & $0.06$      & $0.20$          & $0.12$      & $0.33$          \\
+ \lr{Fold 3}                                                       & $0.19$      & $0.19$          & $0.16$      & $0.32$          \\
+ \lr{Fold 4}                                                       & $0.09$      & $0.19$          & $0.16$      & $0.33$          \\ \hline
+ \lr{1et}                                                          & $0.22$      & -             & $0.32$      & -             \\
+ \lr{2et}                                                          & $0.20$      & -             & $0.35$      & -             \\ \hline
+ شورایی                                                       & $0.17$      & \textbf{$0.22$} & $0.29$      & \textbf{$0.36$}
+ \\ \hline
+ \end{tabular}%
+ }
+ \end{table}
+ 
+ 
+ 
+ 
+ 
+ \autoref{fig:dice-th-seg}
+ نتایج 
+  \lr{ِIoU}
+  و 
+  \lr{Dice}
+ را به ازای آستانه‌های متفاوت نشان می‌دهد. همانطور که مشخص است. میانگین عملکرد مدل‌ها به روی زیرمجموعه اعتبارسنجی، که از توزیع برش‌های مشابهی با زیرمجموعه ارزیابی برخوردار هستند، بسیار بیشتر از میانگین بدست‌آمده به روی زیرمجموعه ارزیابی است. علت اصلی این تفاوت، در توزیع مکانی خونریزی درون‌جمجمه‌ای موجود در زیرمجموعه ارزیابی نسبت به بقیه زیر‌مجموعه‌ها می‌باشد که در 
+ \autoref{fig:heatmaps}
+ این تفاوت توزیع مشخص است. 
+ \lr{Hssayeni}\cite{hssayeni2020intracranial} 
+ و همکاران، در پژوهشی که نتایج آن در
+ \autoref{table:ch3-seg-results}
+ آورده شده است، نتایج خود را از میانگین گرفتن از نتایج بدست آمده از هر
+ \lr{Fold}
+ گزارش کرده‌اند بنابراین اگر این معیار را برای ارزیابی نتایج روش دو مرحله‌ای درنظر بگیریم، این روش بهبود قابل توجهی در معیارهای قطعه‌بندی ایجاد کرده است.
+ 
+ 
+\begin{figure}[h]
+\centering
+\includegraphics[width=1.0\linewidth]{Images/Chapter3/dice-th-seg}
+\caption{نتایج}
+\label{fig:dice-th-seg}
+\end{figure}
+ 
+ 
+ 

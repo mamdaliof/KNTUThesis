@@ -20,45 +20,46 @@
 \setcounter {tocdepth}{\SavedTocDepth }
 \contentsline {chapter}{\numberline {2}روش‌ها و مجموعه‌داده}{13}{chapter.2}%
 \contentsline {section}{\numberline {2-1}بررسی آماری مجموعه داده}{14}{section.2.1}%
-\contentsline {section}{\numberline {2-2}پیش‌پردازش\LTRfootnote {Pre-process}}{18}{section.2.2}%
-\contentsline {section}{\numberline {2-3}روش پردازش تصاویر}{21}{section.2.3}%
-\contentsline {subsection}{\numberline {2-3-1}یادگیری عمیق و اصول اولیه}{21}{subsection.2.3.1}%
-\contentsline {subsubsection}{ساختار نورون}{22}{section*.19}%
-\contentsline {subsubsection}{لایه‌های پنهان}{22}{section*.20}%
-\contentsline {subsubsection}{تابع خطا و پس‌انتشار \LTRfootnote {backpropagation}}{23}{section*.22}%
-\contentsline {subsubsection}{لایه‌های پرسپترون \LTRfootnote {Perceptron} چندلایه}{24}{section*.23}%
-\contentsline {subsubsection}{شبکه عصبی پیچشی \LTRfootnote {Convolutional Neural Network}}{24}{section*.24}%
-\contentsline {subsubsection}{بهینه‌سازها و الگوریتم \lr {Adam} }{25}{section*.25}%
-\contentsline {section}{\numberline {2-4}مدل‌های طبقه‌بندی در شبکه عصبی عمیق}{25}{section.2.4}%
-\contentsline {subsection}{\numberline {2-4-1}\lr {ResNet}}{25}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2-4-2}\lr {ResNeXt}}{27}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2-4-3}شبکه \lr {Squeeze-and-Excitation} \lr {(SENet)}}{27}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2-4-4}\lr {DenseNet}}{29}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2-4-5}\lr {EfficientNet}}{29}{subsection.2.4.5}%
-\contentsline {section}{\numberline {2-5}مدل‌های قطعه‌بندی در شبکه عصبی عمیق}{31}{section.2.5}%
-\contentsline {subsection}{\numberline {2-5-1}\lr {U-Net}}{31}{subsection.2.5.1}%
-\contentsline {section}{\numberline {2-6}پس‌پردازش}{32}{section.2.6}%
-\contentsline {section}{\numberline {2-7}روش پیشنهادی}{33}{section.2.7}%
-\contentsline {section}{\numberline {2-8}آموزش و تصمیم‌گیری}{34}{section.2.8}%
-\contentsline {subsection}{\numberline {2-8-1}طبقه‌بندی}{34}{subsection.2.8.1}%
-\contentsline {subsection}{\numberline {2-8-2}قطعه‌بندی}{36}{subsection.2.8.2}%
-\contentsline {subsection}{\numberline {2-8-3}سازوکار تصمیم‌گیری شورایی}{37}{subsection.2.8.3}%
-\contentsline {chapter}{\numberline {3}نتایج}{39}{chapter.3}%
-\contentsline {section}{\numberline {3-1}معیارهای ارزیابی در یادگیری عمیق}{40}{section.3.1}%
-\contentsline {subsection}{\numberline {3-1-1}\lr {Sensitivity}}{40}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3-1-2}\lr {Specificity}}{40}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3-1-3}\lr {Precision}}{40}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3-1-4}\lr {F1 Score}}{41}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3-1-5}\lr {Accuracy}}{41}{subsection.3.1.5}%
-\contentsline {subsection}{\numberline {3-1-6}\lr {Intersection over Union (IoU)}}{41}{subsection.3.1.6}%
-\contentsline {subsection}{\numberline {3-1-7}\lr {Dice Coefficient}}{42}{subsection.3.1.7}%
-\contentsline {section}{\numberline {3-2}نتایج طبقه‌بندی}{42}{section.3.2}%
-\contentsline {subsection}{\numberline {3-2-1}نتایج برش‌محور }{42}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3-2-2}نتایج بیمارمحور}{43}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3-2-3}تحلیل بیشتر نتایج}{43}{subsection.3.2.3}%
-\contentsline {subsubsection}{تحلیل \lr {Grad-CAM}}{44}{section*.41}%
-\contentsline {subsubsection}{تحلیل \lr {t-SNE}}{45}{section*.43}%
-\contentsline {chapter}{منابع و مراجع}{48}{appendix*.45}%
-\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{55}{appendix*.46}%
-\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{58}{appendix*.47}%
+\contentsline {section}{\numberline {2-2}پیش‌پردازش\LTRfootnote {Pre-process}}{19}{section.2.2}%
+\contentsline {section}{\numberline {2-3}روش پردازش تصاویر}{22}{section.2.3}%
+\contentsline {subsection}{\numberline {2-3-1}یادگیری عمیق و اصول اولیه}{23}{subsection.2.3.1}%
+\contentsline {subsubsection}{ساختار نورون}{23}{section*.21}%
+\contentsline {subsubsection}{لایه‌های پنهان}{24}{section*.22}%
+\contentsline {subsubsection}{تابع خطا و پس‌انتشار \LTRfootnote {backpropagation}}{24}{section*.24}%
+\contentsline {subsubsection}{لایه‌های پرسپترون \LTRfootnote {Perceptron} چندلایه}{25}{section*.25}%
+\contentsline {subsubsection}{شبکه عصبی پیچشی \LTRfootnote {Convolutional Neural Network}}{26}{section*.26}%
+\contentsline {subsubsection}{بهینه‌سازها و الگوریتم \lr {Adam} }{26}{section*.27}%
+\contentsline {section}{\numberline {2-4}مدل‌های طبقه‌بندی در شبکه عصبی عمیق}{27}{section.2.4}%
+\contentsline {subsection}{\numberline {2-4-1}\lr {ResNet}}{27}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2-4-2}\lr {ResNeXt}}{28}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2-4-3}شبکه \lr {Squeeze-and-Excitation} \lr {(SENet)}}{29}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2-4-4}\lr {DenseNet}}{30}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2-4-5}\lr {EfficientNet}}{31}{subsection.2.4.5}%
+\contentsline {section}{\numberline {2-5}مدل‌های قطعه‌بندی در شبکه عصبی عمیق}{32}{section.2.5}%
+\contentsline {subsection}{\numberline {2-5-1}\lr {U-Net}}{32}{subsection.2.5.1}%
+\contentsline {section}{\numberline {2-6}پس‌پردازش}{34}{section.2.6}%
+\contentsline {section}{\numberline {2-7}روش پیشنهادی}{34}{section.2.7}%
+\contentsline {section}{\numberline {2-8}آموزش و تصمیم‌گیری}{36}{section.2.8}%
+\contentsline {subsection}{\numberline {2-8-1}طبقه‌بندی}{36}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2-8-2}قطعه‌بندی}{38}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2-8-3}سازوکار تصمیم‌گیری شورایی}{38}{subsection.2.8.3}%
+\contentsline {chapter}{\numberline {3}نتایج}{40}{chapter.3}%
+\contentsline {section}{\numberline {3-1}معیارهای ارزیابی در یادگیری عمیق}{41}{section.3.1}%
+\contentsline {subsection}{\numberline {3-1-1}\lr {Sensitivity}}{41}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3-1-2}\lr {Specificity}}{41}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3-1-3}\lr {Precision}}{41}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3-1-4}\lr {F1 Score}}{42}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3-1-5}\lr {Accuracy}}{42}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3-1-6}\lr {Intersection over Union (IoU)}}{42}{subsection.3.1.6}%
+\contentsline {subsection}{\numberline {3-1-7}\lr {Dice Coefficient}}{43}{subsection.3.1.7}%
+\contentsline {section}{\numberline {3-2}نتایج طبقه‌بندی}{43}{section.3.2}%
+\contentsline {subsection}{\numberline {3-2-1}نتایج برش‌محور }{43}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3-2-2}نتایج بیمارمحور}{45}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3-2-3}تحلیل بیشتر نتایج}{47}{subsection.3.2.3}%
+\contentsline {subsubsection}{تحلیل \lr {Grad-CAM}}{47}{section*.44}%
+\contentsline {subsubsection}{تحلیل \lr {t-SNE}}{48}{section*.46}%
+\contentsline {section}{\numberline {3-3}نتایج قطعه‌بندی}{49}{section.3.3}%
+\contentsline {chapter}{منابع و مراجع}{53}{appendix*.51}%
+\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{60}{appendix*.52}%
+\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{63}{appendix*.53}%
 \contentsfinish 

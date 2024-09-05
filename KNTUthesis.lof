@@ -11,23 +11,27 @@
 \contentsline {figure}{\numberline {2-5}{\ignorespaces توزیع پیکسلی برش‌ها برای برش‌های دارای خونریزی در مقال برش‌های سالم}}{17}{figure.caption.14}%
 \contentsline {figure}{\numberline {2-6}{\ignorespaces توزیع نرمال‌شده پیکسل‌های دارای خونریزی درمقابل تمام پیکسل‌های تصاویر}}{18}{figure.caption.15}%
 \contentsline {figure}{\numberline {2-7}{\ignorespaces توزیع خونریزی بر اساس برش‌ها}}{19}{figure.caption.16}%
-\contentsline {figure}{\numberline {2-8}{\ignorespaces اثر بافت‌های متفاوت در یکای \lr {Hounsfield} \cite {kaggleCTScansDICOM}}}{19}{figure.caption.17}%
-\contentsline {figure}{\numberline {2-9}{\ignorespaces تاثیر اثر پنجره‌گذاری در نمایش خونریزی در یک برش از سی‌تی‌اسکن}}{21}{figure.caption.18}%
-\contentsline {figure}{\numberline {2-10}{\ignorespaces مدلسازی یک نورون عصبی توسط رابطه ریاضی و ارتباط بین نرون‌ها با استفاده از لایه‌های پنهان \cite {brainmentorsIntroductionDeep}}}{23}{figure.caption.21}%
-\contentsline {figure}{\numberline {2-11}{\ignorespaces یک بلوک از معماری \lr {ResNet} که اتصال میانبر همانی را نشان می‌دهد \cite {wikipediaResidualNeural}.}}{26}{figure.caption.26}%
-\contentsline {figure}{\numberline {2-12}{\ignorespaces ساختارهای مختلف در معماری \lr {ResNeXt} که کانولوشن‌های گروهی، مسیرهای پردازشی موازی و روش ادغام را نشان می‌دهند \cite {xie2017aggregated}.}}{28}{figure.caption.27}%
-\contentsline {figure}{\numberline {2-13}{\ignorespaces بلوک \lr {Squeeze-and-Excitation} که نحوه عملکرد آن را در ارزیابی و وزن‌دهی کانال‌ها نشان می‌دهد \cite {hu2018squeeze}.}}{28}{figure.caption.28}%
-\contentsline {figure}{\numberline {2-14}{\ignorespaces معماری یک بلوک \lr {DenseNet}\cite {huang2017densely}.}}{30}{figure.caption.29}%
-\contentsline {figure}{\numberline {2-15}{\ignorespaces ساختار شبکه \lr {U-Net} که شامل مسیر رمزگذار و رمزگشا، همراه با اتصالات کپی و الحاق است \cite {ronneberger2015u}.}}{32}{figure.caption.30}%
-\contentsline {figure}{\numberline {2-16}{\ignorespaces نمونه لایه‌های پس‌پردازش استخراج شده از برش‌های بیمار}}{33}{figure.caption.31}%
-\contentsline {figure}{\numberline {2-17}{\ignorespaces روندنمای روش پیشنهادی در این پژوهش}}{35}{figure.caption.32}%
-\contentsline {figure}{\numberline {2-18}{\ignorespaces سازوکار تصمیم‌گیری شورایی}}{37}{figure.caption.34}%
+\contentsline {figure}{\numberline {2-8}{\ignorespaces پراکندگی مکانی خونریزی در مجموعه‌داد \lr {PhysioNet}}}{20}{figure.caption.17}%
+\contentsline {figure}{\numberline {2-10}{\ignorespaces اثر بافت‌های متفاوت در یکای \lr {Hounsfield} \cite {kaggleCTScansDICOM}}}{20}{figure.caption.19}%
+\contentsline {figure}{\numberline {2-9}{\ignorespaces پراکندگی مکانی خونریزی در زیرمجموعه‌های متفاوت از مجموعه‌داده}}{21}{figure.caption.18}%
+\contentsline {figure}{\numberline {2-11}{\ignorespaces تاثیر اثر پنجره‌گذاری در نمایش خونریزی در یک برش از سی‌تی‌اسکن}}{23}{figure.caption.20}%
+\contentsline {figure}{\numberline {2-12}{\ignorespaces مدلسازی یک نورون عصبی توسط رابطه ریاضی و ارتباط بین نرون‌ها با استفاده از لایه‌های پنهان \cite {brainmentorsIntroductionDeep}}}{25}{figure.caption.23}%
+\contentsline {figure}{\numberline {2-13}{\ignorespaces یک بلوک از معماری \lr {ResNet} که اتصال میانبر همانی را نشان می‌دهد \cite {wikipediaResidualNeural}.}}{28}{figure.caption.28}%
+\contentsline {figure}{\numberline {2-14}{\ignorespaces ساختارهای مختلف در معماری \lr {ResNeXt} که کانولوشن‌های گروهی، مسیرهای پردازشی موازی و روش ادغام را نشان می‌دهند \cite {xie2017aggregated}.}}{29}{figure.caption.29}%
+\contentsline {figure}{\numberline {2-15}{\ignorespaces بلوک \lr {Squeeze-and-Excitation} که نحوه عملکرد آن را در ارزیابی و وزن‌دهی کانال‌ها نشان می‌دهد \cite {hu2018squeeze}.}}{30}{figure.caption.30}%
+\contentsline {figure}{\numberline {2-16}{\ignorespaces معماری یک بلوک \lr {DenseNet}\cite {huang2017densely}.}}{31}{figure.caption.31}%
+\contentsline {figure}{\numberline {2-17}{\ignorespaces ساختار شبکه \lr {U-Net} که شامل مسیر رمزگذار و رمزگشا، همراه با اتصالات کپی و الحاق است \cite {ronneberger2015u}.}}{33}{figure.caption.32}%
+\contentsline {figure}{\numberline {2-18}{\ignorespaces نمونه لایه‌های پس‌پردازش استخراج شده از برش‌های بیمار}}{34}{figure.caption.33}%
+\contentsline {figure}{\numberline {2-19}{\ignorespaces روندنمای روش پیشنهادی در این پژوهش}}{36}{figure.caption.34}%
+\contentsline {figure}{\numberline {2-20}{\ignorespaces سازوکار تصمیم‌گیری شورایی}}{39}{figure.caption.36}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3-1}{\ignorespaces نمودار امتیاز \lr {F1} نسبت به آستانه برای \lr {Fold}ها و میانگین آنها}}{44}{figure.caption.36}%
-\contentsline {figure}{\numberline {3-2}{\ignorespaces نمودارهای سازوکار شورایی روی مجموعه‌داده ارزیابی}}{44}{figure.caption.37}%
-\contentsline {figure}{\numberline {3-3}{\ignorespaces ماتریس آشفتگی نتایج برش‌محور}}{45}{figure.caption.38}%
-\contentsline {figure}{\numberline {3-4}{\ignorespaces ماتریس آشفتگیب یمارمحور سازوکار شورایی}}{46}{figure.caption.40}%
-\contentsline {figure}{\numberline {3-5}{\ignorespaces چند نمونه از تصاویر تولید شده توسط \lr {Grad-CAM}}}{47}{figure.caption.42}%
-\contentsline {figure}{\numberline {3-6}{\ignorespaces نمودارهای \lr {t-SNE} و مقایسه آنها با یکدیگر}}{47}{figure.caption.44}%
+\contentsline {figure}{\numberline {3-1}{\ignorespaces نمودار امتیاز \lr {F1} نسبت به آستانه برای \lr {Fold}ها و میانگین آنها}}{45}{figure.caption.38}%
+\contentsline {figure}{\numberline {3-2}{\ignorespaces نمودارهای سازوکار شورایی روی مجموعه‌داده ارزیابی}}{46}{figure.caption.39}%
+\contentsline {figure}{\numberline {3-3}{\ignorespaces ماتریس آشفتگی نتایج برش‌محور}}{46}{figure.caption.40}%
+\contentsline {figure}{\numberline {3-4}{\ignorespaces ماتریس آشفتگیب یمارمحور سازوکار شورایی}}{48}{figure.caption.43}%
+\contentsline {figure}{\numberline {3-5}{\ignorespaces چند نمونه از تصاویر تولید شده توسط \lr {Grad-CAM}}}{49}{figure.caption.45}%
+\contentsline {figure}{\numberline {3-6}{\ignorespaces نمودارهای \lr {t-SNE} و مقایسه آنها با یکدیگر}}{49}{figure.caption.47}%
+\contentsline {figure}{\numberline {3-7}{\ignorespaces یک نمونه از عملکرد روش پیشنهادی و پس‌پردازش در فرایند آموزش }}{50}{figure.caption.48}%
+\contentsline {figure}{\numberline {3-8}{\ignorespaces نتایج}}{52}{figure.caption.50}%
 \contentsfinish 
 \contentsfinish 
