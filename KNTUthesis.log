@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.12) (preloaded format=xelatex 2024.5.17)  6 SEP 2024 15:55
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.12) (preloaded format=xelatex 2024.5.17)  6 SEP 2024 17:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4335,6 +4335,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ]
+Underfull \hbox (badness 1210) in paragraph at lines 41--47
+[][]\TU/times(0)/m/n/12 Precision[]\TU/BNazanin.ttf(0)/m/n/12 ، معیاری برای ارز
+یابی میزان درستی دسته‌بندی نمونه‌های مثبت است.به‌عبارت‌دیگر،[]
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4389,10 +4394,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 241.
+               Default added (so using `tbp') on input line 250.
 
 LaTeX Font Info:    Font shape `TU/BNazanin.ttf(0)/m/n' will be
-(Font)              scaled to size 7.19998pt on input line 259.
+(Font)              scaled to size 7.19998pt on input line 268.
 Package microtype Info: Character `A' is missing
 (microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -4497,7 +4502,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [45]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 291.
+               Default added (so using `tbp') on input line 300.
 
 File: Images/Chapter3/p-cm.png Graphic file (type bmp)
 <Images/Chapter3/p-cm.png>
@@ -4544,7 +4549,7 @@ File: Images/Chapter3/tsne.png Graphic file (type bmp)
 File: Images/Chapter3/tsne-other.png Graphic file (type bmp)
 <Images/Chapter3/tsne-other.png>
 LaTeX Font Info:    Font shape `TU/Yas.ttf(0)/m/n' will be
-(Font)              scaled to size 12.04506pt on input line 381.
+(Font)              scaled to size 12.04506pt on input line 390.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -4566,7 +4571,7 @@ File: Images/Chapter3/seg-Dice-metrics.png.png Graphic file (type bmp)
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 458.
+               Default added (so using `tbp') on input line 467.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4986,7 +4991,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `KNTUthesis.out' has not changed.
-(rerunfilecheck)             Checksum: D296E81E6392CEE83055F773383E601D;10901.
+(rerunfilecheck)             Checksum: CB5F0815EAB8C6B0A279CA836AF49254;10878.
  ) 
 Here is how much of TeX's memory you used:
  37841 strings out of 409616

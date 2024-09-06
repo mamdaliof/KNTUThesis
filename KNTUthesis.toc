@@ -51,7 +51,7 @@
 \contentsline {subsection}{\numberline {3-1-4}\lr {F1 Score}}{42}{subsection.3.1.4}%
 \contentsline {subsection}{\numberline {3-1-5}\lr {Accuracy}}{42}{subsection.3.1.5}%
 \contentsline {subsection}{\numberline {3-1-6}\lr {Intersection over Union (IoU)}}{42}{subsection.3.1.6}%
-\contentsline {subsection}{\numberline {3-1-7}\lr {Dice Coefficient}}{43}{subsection.3.1.7}%
+\contentsline {subsection}{\numberline {3-1-7}ضریب \lr {Dice}}{43}{subsection.3.1.7}%
 \contentsline {section}{\numberline {3-2}نتایج طبقه‌بندی}{43}{section.3.2}%
 \contentsline {subsection}{\numberline {3-2-1}نتایج برش‌محور }{43}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3-2-2}نتایج بیمارمحور}{45}{subsection.3.2.2}%
