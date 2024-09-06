@@ -19,9 +19,9 @@
 \par عنوان\hfill صفحه \par 
 \setcounter {tocdepth}{\SavedTocDepth }
 \contentsline {chapter}{\numberline {2}روش‌ها و مجموعه‌داده}{13}{chapter.2}%
-\contentsline {section}{\numberline {2-1}بررسی آماری مجموعه داده}{14}{section.2.1}%
+\contentsline {section}{\numberline {2-1}بررسی آماری مجموعه‌داده}{14}{section.2.1}%
 \contentsline {section}{\numberline {2-2}پیش‌پردازش\LTRfootnote {Pre-process}}{19}{section.2.2}%
-\contentsline {section}{\numberline {2-3}روش پردازش تصاویر}{22}{section.2.3}%
+\contentsline {section}{\numberline {2-3}روش پردازش تصاویر}{23}{section.2.3}%
 \contentsline {subsection}{\numberline {2-3-1}یادگیری عمیق و اصول اولیه}{23}{subsection.2.3.1}%
 \contentsline {subsubsection}{ساختار نورون}{23}{section*.21}%
 \contentsline {subsubsection}{لایه‌های پنهان}{24}{section*.22}%

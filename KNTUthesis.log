@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.12) (preloaded format=xelatex 2024.5.17)  5 SEP 2024 17:52
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.12) (preloaded format=xelatex 2024.5.17)  6 SEP 2024 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4113,9 +4113,6 @@ File: Images/chapter2/bleed_location_no_caption.png Graphic file (type bmp)
 <Images/chapter2/bleed_location_no_caption.png>
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -4989,7 +4986,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `KNTUthesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2CC6AE068326B5406E4A2EC9AB8C3435;10901.
+(rerunfilecheck)             Checksum: D296E81E6392CEE83055F773383E601D;10901.
  ) 
 Here is how much of TeX's memory you used:
  37841 strings out of 409616
