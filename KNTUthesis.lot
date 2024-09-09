@@ -2,12 +2,12 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {1-1}{\ignorespaces انواع زیرگروه‌های خونریزی درون‌جمجمه‌ای \cite {rsna_hemorrhage_detection_kaggle}}}{4}{table.caption.7}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2-1}{\ignorespaces ضرایب مورد استفاده در جستجوی شبکه‌ای}}{38}{table.caption.35}%
+\contentsline {table}{\numberline {2-1}{\ignorespaces ضرایب مورد استفاده در جستجوی شبکه‌ای}}{38}{table.caption.36}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3-1}{\ignorespaces نتایج برش‌محور مدل \lr {ResNet50} برای آستانه تصمیم‌گیری $0.27$}}{44}{table.caption.37}%
-\contentsline {table}{\numberline {3-2}{\ignorespaces نتیجه استفاده از فراپارامترهای بدست آمده از جستجوی شبکه‌ای روی مدل‌های دیگر}}{47}{table.caption.41}%
-\contentsline {table}{\numberline {3-3}{\ignorespaces نتایج بیمارمحور مدل \lr {ResNet50} برای آستانه تصمیم‌گیری $0.27$}}{47}{table.caption.42}%
-\contentsline {table}{\numberline {3-4}{\ignorespaces نتایج قطعه‌بندی تصاویر سی‌تی‌اسکن}}{51}{table.caption.49}%
+\contentsline {table}{\numberline {3-1}{\ignorespaces نتایج برش‌محور مدل \lr {ResNet50} برای آستانه تصمیم‌گیری $0.27$}}{45}{table.caption.38}%
+\contentsline {table}{\numberline {3-2}{\ignorespaces نتیجه استفاده از فراپارامترهای بدست آمده از جستجوی شبکه‌ای روی مدل‌های دیگر}}{48}{table.caption.42}%
+\contentsline {table}{\numberline {3-3}{\ignorespaces نتایج بیمارمحور مدل \lr {ResNet50} برای آستانه تصمیم‌گیری $0.27$}}{48}{table.caption.43}%
+\contentsline {table}{\numberline {3-4}{\ignorespaces نتایج قطعه‌بندی تصاویر سی‌تی‌اسکن}}{52}{table.caption.50}%
 \addvspace {10\p@ }
 \contentsfinish 
 \contentsfinish 

@@ -21,18 +21,20 @@
 \contentsline {figure}{\numberline {2-15}{\ignorespaces بلوک \lr {Squeeze-and-Excitation} که نحوه عملکرد آن را در ارزیابی و وزن‌دهی کانال‌ها نشان می‌دهد \cite {hu2018squeeze}.}}{30}{figure.caption.30}%
 \contentsline {figure}{\numberline {2-16}{\ignorespaces معماری یک بلوک \lr {DenseNet}\cite {huang2017densely}.}}{31}{figure.caption.31}%
 \contentsline {figure}{\numberline {2-17}{\ignorespaces ساختار شبکه \lr {U-Net} که شامل مسیر رمزگذار، رمزگشا و اتصالات میان‌بر است \cite {ronneberger2015u}.}}{33}{figure.caption.32}%
-\contentsline {figure}{\numberline {2-18}{\ignorespaces نمونه لایه‌های پس‌پردازش استخراج شده از برش‌های بیمار}}{34}{figure.caption.33}%
-\contentsline {figure}{\numberline {2-19}{\ignorespaces روندنمای روش پیشنهادی در این پژوهش}}{36}{figure.caption.34}%
-\contentsline {figure}{\numberline {2-20}{\ignorespaces سازوکار تصمیم‌گیری شورایی}}{39}{figure.caption.36}%
+\contentsline {figure}{\numberline {2-18}{\ignorespaces ساختار شبکه \lr {PSPNet} \cite {zhao2017pyramid}}}{34}{figure.caption.33}%
+\contentsline {figure}{\numberline {2-19}{\ignorespaces نمونه لایه‌های پس‌پردازش استخراج شده از برش‌های بیمار}}{35}{figure.caption.34}%
+\contentsline {figure}{\numberline {2-20}{\ignorespaces روندنمای روش پیشنهادی در این پژوهش}}{37}{figure.caption.35}%
+\contentsline {figure}{\numberline {2-21}{\ignorespaces سازوکار تصمیم‌گیری شورایی}}{40}{figure.caption.37}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3-1}{\ignorespaces نمودار امتیاز \lr {F1} نسبت به آستانه برای \lr {Fold}ها و میانگین آنها}}{45}{figure.caption.38}%
-\contentsline {figure}{\numberline {3-2}{\ignorespaces نمودارهای سازوکار شورایی روی مجموعه‌داده ارزیابی}}{46}{figure.caption.39}%
-\contentsline {figure}{\numberline {3-3}{\ignorespaces ماتریس آشفتگی نتایج برش‌محور}}{46}{figure.caption.40}%
-\contentsline {figure}{\numberline {3-4}{\ignorespaces ماتریس آشفتگیب یمارمحور سازوکار شورایی}}{48}{figure.caption.43}%
-\contentsline {figure}{\numberline {3-5}{\ignorespaces چند نمونه از تصاویر تولید شده توسط \lr {Grad-CAM}}}{49}{figure.caption.45}%
-\contentsline {figure}{\numberline {3-6}{\ignorespaces نمودارهای \lr {t-SNE} و مقایسه آنها با یکدیگر}}{49}{figure.caption.47}%
-\contentsline {figure}{\numberline {3-7}{\ignorespaces یک نمونه از عملکرد روش پیشنهادی و پس‌پردازش در فرایند آموزش }}{50}{figure.caption.48}%
-\contentsline {figure}{\numberline {3-8}{\ignorespaces نتایج}}{52}{figure.caption.50}%
+\contentsline {figure}{\numberline {3-1}{\ignorespaces نمودار امتیاز \lr {F1} نسبت به آستانه برای \lr {Fold}ها و میانگین آنها}}{46}{figure.caption.39}%
+\contentsline {figure}{\numberline {3-2}{\ignorespaces نمودارهای سازوکار شورایی روی مجموعه‌داده ارزیابی}}{47}{figure.caption.40}%
+\contentsline {figure}{\numberline {3-3}{\ignorespaces ماتریس آشفتگی نتایج برش‌محور}}{47}{figure.caption.41}%
+\contentsline {figure}{\numberline {3-4}{\ignorespaces ماتریس آشفتگیب یمارمحور سازوکار شورایی}}{49}{figure.caption.44}%
+\contentsline {figure}{\numberline {3-5}{\ignorespaces چند نمونه از تصاویر تولید شده توسط \lr {Grad-CAM}}}{50}{figure.caption.46}%
+\contentsline {figure}{\numberline {3-6}{\ignorespaces نمودارهای \lr {t-SNE} و مقایسه آنها با یکدیگر}}{50}{figure.caption.48}%
+\contentsline {figure}{\numberline {3-7}{\ignorespaces یک نمونه از عملکرد روش پیشنهادی و پس‌پردازش در فرایند آموزش }}{51}{figure.caption.49}%
+\contentsline {figure}{\numberline {3-8}{\ignorespaces نتایج مدل \lr {U-Net} به‌ازای آستانه‌های متفاوت}}{53}{figure.caption.51}%
+\contentsline {figure}{\numberline {3-9}{\ignorespaces نتایج مدل \lr {PSPNet} به‌ازای آستانه‌های متفاوت}}{53}{figure.caption.52}%
 \addvspace {10\p@ }
 \contentsfinish 
 \contentsfinish 

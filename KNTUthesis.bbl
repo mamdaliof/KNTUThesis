@@ -85,6 +85,16 @@ Ronneberger, Olaf, Fischer, Philipp, and Brox, Thomas.
 
 \begin{LTRbibitems}
 \resetlatinfont
+\bibitem{zhao2017pyramid}
+Zhao, Hengshuang, Shi, Jianping, Qi, Xiaojuan, Wang, Xiaogang, and Jia, Jiaya.
+\newblock Pyramid scene parsing network.
+\newblock  in {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition},  pp. 2881--2890, 2017.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
 \bibitem{rsna_hemorrhage_detection_kaggle}
 Rsna intracranial hemorrhage detection.
 \newblock
@@ -405,11 +415,10 @@ Hssayeni, Murtadha, Croock, M, Salman, A, Al-khafaji, H, Yahya, Z, and
 \resetlatinfont
 \bibitem{towardsdatascienceUnderstandingDeep}
 Efimov, Vyacheslav.
-\newblock {U}nderstanding {D}eep {L}earning {O}ptimizers: {M}omentum,
-  {A}da{G}rad, {R}{M}{S}{P}rop \& {A}dam --- towardsdatascience.com.
-\newblock
-  \url{https://towardsdatascience.com/understanding-deep-learning-optimizers-momentum-adagrad-rmsprop-adam-e311e377e9c2}.
-\newblock [Accessed 30-08-2024].
+\newblock Understanding deep learning optimizers: Momentum, adagrad, rmsprop,
+  adam.
+\newblock {\em Towards Data Science}, 2018.
+\newblock Accessed: 2024-09-09.
 
 \end{LTRbibitems}
 
@@ -441,6 +450,16 @@ Tan, Mingxing.
 \newblock Efficientnet: Rethinking model scaling for convolutional neural
   networks.
 \newblock {\em arXiv preprint arXiv:1905.11946}, 2019.
+
+\end{LTRbibitems}
+
+\begin{LTRbibitems}
+\resetlatinfont
+\bibitem{deng2009imagenet}
+Deng, Jia, Dong, Wei, Socher, Richard, Li, Li-Jia, Li, Kai, and Fei-Fei, Li.
+\newblock Imagenet: A large-scale hierarchical image database.
+\newblock  in {\em 2009 IEEE conference on computer vision and pattern
+  recognition},  pp. 248--255. Ieee, 2009.
 
 \end{LTRbibitems}
 

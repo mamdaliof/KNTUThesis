@@ -399,14 +399,18 @@ $0.27$}
 
 \section{نتایج قطعه‌بندی}
 در این قسمت به بررسی نتایج حاصل شده از آموزش مدل قطعه‌بندی 
-\lr{U-Net}
+\lr{U-Net}و \lr{PSPNet}
  می‌پردازیم. نتیجه استفاده از جستجوی شبکه‌ای به روی مدل 
  \lr{‎U-Net}
  نشان می‌دهد که مدل با رمزگذار 
  \lr{SE-ResNeXt-101}
 که با استفاده از تابع خطا
 \lr{ِDice}
-آموزش‌دیده و میزان برش‌های دارای خونریزی آن، 5 برابر شده است، بهترین نتیجه را به‌دست‌آورده‌.
+آموزش‌دیده و میزان برش‌های دارای خونریزی آن، 5 برابر شده است، بهترین نتیجه را به‌دست‌آورده‌. باتوجه به فراپارامتر‌هایی که در جستجوی شبکه‌ای مدل
+ \lr{‎U-Net}
+ به‌دست‌آمد، مدل
+ \lr{PSPNet}
+ آموزش داده شد تا نشان دهیم این فراپارامترها می‌توانند عملکرد مدل‌های قطعه‌بندی را بهبود بخشند. 
  \autoref{fig:ch3-seg-training-graph}
  منحنی‌های مربوط به آموزش مدل روی 
  \lr{Fold 1}
@@ -471,16 +475,25 @@ $0.27$}
   \adjustbox{width=0.8\columnwidth,max totalheight=\textheight, keepaspectratio}{
  \begin{tabular}{rllll}
  \hline
- \textbf{مدل \lr{U-Net}} & \textbf{} & \multicolumn{1}{r}{\textbf{\lr{IoU}}}  & \textbf{} & \multicolumn{1}{r}{\textbf{\lr{Dice}}} \\ \cline{2-5}
+ \textbf{مدل} & \textbf{} & \multicolumn{1}{r}{\textbf{\lr{IoU}}}  & \textbf{} & \multicolumn{1}{r}{\textbf{\lr{Dice}}} \\ \cline{2-5}
                                                   & عادی      & دو مرحله‌ای    & عادی      & دو مرحله‌ای    \\ \hline
- \lr{Fold 0}                                                       & $0.12$      & $0.21$          & $0.21$      & $0.35$          \\
- \lr{Fold 1}                                                       & $0.17$      & $0.20$          & $0.29$      & $0.34$          \\
- \lr{Fold 2}                                                       & $0.06$      & $0.20$          & $0.12$      & $0.33$          \\
- \lr{Fold 3}                                                       & $0.19$      & $0.19$          & $0.16$      & $0.32$          \\
- \lr{Fold 4}                                                       & $0.09$      & $0.19$          & $0.16$      & $0.33$          \\ \hline
- \lr{1et}                                                          & $0.22$      & -             & $0.32$      & -             \\
- \lr{2et}                                                          & $0.20$      & -             & $0.35$      & -             \\ \hline
- شورایی                                                       & $0.17$      & \textbf{$0.22$} & $0.29$      & \textbf{$0.36$}
+ \lr{U-Net Fold 0}                                                       & $0.12$      & $0.21$          & $0.21$      & $0.35$          \\
+ \lr{PSPNet Fold 0}                                                       & $0.18$      & $0.22$          & $0.31$      & $0.36$          \\
+ \lr{U-Net Fold 1}                                                       & $0.17$      & $0.20$          & $0.29$      & $0.34$          \\
+ \lr{PSPNet Fold 1}                                                       & $0.17$      & $0.21$          & $0.29$      & $0.35$          \\
+ \lr{U-Net Fold 2}                                                       & $0.06$      & $0.20$          & $0.12$      & $0.33$          \\
+ \lr{PSPNet Fold 2}                                                       & $0.11$      & $0.16$          & $0.20$      & $0.28$          \\
+ \lr{U-Net Fold 3}                                                       & $0.19$      & $0.19$          & $0.16$      & $0.32$          \\
+ \lr{PSPNet Fold 3}                                                       & $0.20$      & $0.23$          & $0.34$      & $0.37$          \\
+ \lr{U-Net Fold 4}                                                       & $0.09$      & $0.19$          & $0.16$      & $0.33$          \\ 
+ \lr{PSPNet Fold 4}                                                       & $0.16$      & $0.21$          & $0.27$      & $0.35$          \\
+  \hline
+ \lr{U-Net Hssayeni}\cite{hssayeni2020intracranial}                                                          & $0.22$      & -             & $0.32$      & -             \\
+ \lr{U-Net Neethi}\cite{neethi2022stroke}                                                          & $0.20$      & -             & $0.35$      & -             \\ \hline
+ \lr{U-Net} شورایی
+                                                        & $0.17$      & $0.22$ & $0.29$      & $0.36$\\
+\lr{PSPNet} شورایی
+                                                        & $0.20$      & \textbf{$0.23$} & $0.34$      & \textbf{$0.38$}
  \\ \hline
  \end{tabular}%
  }
@@ -490,12 +503,14 @@ $0.27$}
  
  
  
- \autoref{fig:dice-th-seg}
+ \autoref{fig:dice-th-seg-unet} و \autoref{fig:dice-th-seg-psp}
  نتایج 
   \lr{ِIoU}
   و 
   \lr{Dice}
- را به‌ازای آستانه‌های متفاوت نشان می‌دهد. همان‌طور که مشخص است. میانگین عملکرد مدل‌ها به روی زیرمجموعه اعتبارسنجی که از توزیع برش‌های مشابهی با زیرمجموعه ارزیابی برخوردار هستند، بسیار بیشتر از میانگین به‌دست‌آمده به روی زیرمجموعه ارزیابی است. علت اصلی این تفاوت، در توزیع مکانی خونریزی درون‌جمجمه‌ای موجود در زیرمجموعه ارزیابی نسبت به بقیه زیر‌مجموعه‌ها است که در 
+ را به‌ازای آستانه‌های متفاوت برای دو مدل
+ \lr{U-Net} و \lr{PSPNet}
+ نشان می‌دهند. همان‌طور که مشخص است، میانگین عملکرد مدل‌ها به روی زیرمجموعه اعتبارسنجی که توزیع برش‌های آن، مشابه با توزیع برش‌ها در زیرمجموعه ارزیابی است، بسیار بیشتر از نتایج به‌دست‌آمده به روی زیرمجموعه ارزیابی است. علت اصلی این تفاوت، در توزیع مکانی خونریزی درون‌جمجمه‌ای موجود در زیرمجموعه ارزیابی نسبت به بقیه زیر‌مجموعه‌ها است که در 
  \autoref{fig:heatmaps}
  این تفاوت توزیع مشخص است. 
  \lr{Hssayeni}\cite{hssayeni2020intracranial} 
@@ -509,9 +524,28 @@ $0.27$}
 \begin{figure}[h]
 \centering
 \includegraphics[width=1.0\linewidth]{Images/Chapter3/dice-th-seg}
-\caption{نتایج}
-\label{fig:dice-th-seg}
+\caption{نتایج مدل
+\lr{U-Net}
+به‌ازای آستانه‌های متفاوت}
+\label{fig:dice-th-seg-unet}
 \end{figure}
  
  
- 
+  \begin{figure}[h!]
+  		\centering % <-- added
+  		\begin{subfigure}{0.49\textwidth}
+  			\includegraphics[width=\linewidth]{Images/Chapter3/IoU-th-seg-psp.jpg}
+  			\caption{\lr{IoU}}
+  			\label{fig:ch3-seg-IoU-psp}
+  		\end{subfigure}\hfil % <-- 
+  		\begin{subfigure}{0.49\textwidth}
+  			\includegraphics[width=\linewidth]{Images/Chapter3/Dice-th-seg-psp.jpg}
+  			\caption{\lr{Dice}}
+  			\label{fig:ch3-seg-Dice-psp}
+  		\end{subfigure}\hfil % <-- added
+\caption{نتایج مدل
+\lr{PSPNet}
+به‌ازای آستانه‌های متفاوت}
+  		\label{fig:dice-th-seg-psp}
+  \end{figure}
+  
