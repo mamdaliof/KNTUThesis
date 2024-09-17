@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.12) (preloaded format=xelatex 2024.5.17)  9 SEP 2024 19:55
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.12) (preloaded format=xelatex 2024.5.17)  11 SEP 2024 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1507,7 +1507,7 @@ LaTeX Warning: Unused global option(s):
     [oneside,12pt].
 
 (KNTUthesis.aux (chapter1.aux) (chapter2.aux) (chapter3.aux) (chapter4.aux)
-(dicfa2en.aux) (dicen2fa.aux) (en-abstract.aux))
+(appendix1.aux) (dicfa2en.aux) (dicen2fa.aux) (en-abstract.aux))
 \openout1 = `KNTUthesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -1785,7 +1785,7 @@ Package hyperref Info: Link coloring ON on input line 41.
 File: fa-logo.png Graphic file (type bmp)
 <fa-logo.png>
 LaTeX Font Info:    Font shape `TU/BNazanin.ttf(0)/b/n' will be
-(Font)              scaled to size 14.39996pt on input line 58.
+(Font)              scaled to size 14.39996pt on input line 57.
 Package microtype Info: Character `A' is missing
 (microtype)             in font `\TU/BNazanin.ttf(0)/b/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1880,7 +1880,7 @@ Package microtype Info: Character `\textgreater ' is missing
 (microtype)             in font `\TU/BNazanin.ttf(0)/b/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/BNazanin.ttf(0)/b/n' will be
-(Font)              scaled to size 19.19995pt on input line 58.
+(Font)              scaled to size 19.19995pt on input line 57.
 Package microtype Info: Character `A' is missing
 (microtype)             in font `\TU/BNazanin.ttf(0)/b/n/16'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1975,7 +1975,7 @@ Package microtype Info: Character `\textgreater ' is missing
 (microtype)             in font `\TU/BNazanin.ttf(0)/b/n/16'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/BNazanin.ttf(0)/m/n' will be
-(Font)              scaled to size 19.19995pt on input line 58.
+(Font)              scaled to size 19.19995pt on input line 57.
 Package microtype Info: Character `A' is missing
 (microtype)             in font `\TU/BNazanin.ttf(0)/m/n/16'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2070,7 +2070,7 @@ Package microtype Info: Character `\textgreater ' is missing
 (microtype)             in font `\TU/BNazanin.ttf(0)/m/n/16'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/BNazanin.ttf(0)/m/n' will be
-(Font)              scaled to size 23.99994pt on input line 58.
+(Font)              scaled to size 23.99994pt on input line 57.
 Package microtype Info: Character `A' is missing
 (microtype)             in font `\TU/BNazanin.ttf(0)/m/n/20'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2165,7 +2165,7 @@ Package microtype Info: Character `\textgreater ' is missing
 (microtype)             in font `\TU/BNazanin.ttf(0)/m/n/20'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/BNazanin.ttf(0)/b/n' will be
-(Font)              scaled to size 23.99994pt on input line 58.
+(Font)              scaled to size 23.99994pt on input line 57.
 Package microtype Info: Character `A' is missing
 (microtype)             in font `\TU/BNazanin.ttf(0)/b/n/20'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2264,7 +2264,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/BNazanin.ttf(0)/m/n' will be
-(Font)              scaled to size 21.59995pt on input line 58.
+(Font)              scaled to size 21.59995pt on input line 57.
 Package microtype Info: Character `A' is missing
 (microtype)             in font `\TU/BNazanin.ttf(0)/m/n/18'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2359,7 +2359,7 @@ Package microtype Info: Character `\textgreater ' is missing
 (microtype)             in font `\TU/BNazanin.ttf(0)/m/n/18'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/BNazanin.ttf(0)/b/n' will be
-(Font)              scaled to size 21.59995pt on input line 58.
+(Font)              scaled to size 21.59995pt on input line 57.
 Package microtype Info: Character `A' is missing
 (microtype)             in font `\TU/BNazanin.ttf(0)/b/n/18'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2454,7 +2454,7 @@ Package microtype Info: Character `\textgreater ' is missing
 (microtype)             in font `\TU/BNazanin.ttf(0)/b/n/18'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/Yas.ttf(0)/b/n' will be
-(Font)              scaled to size 17.6001pt on input line 58.
+(Font)              scaled to size 17.6001pt on input line 57.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Yas.ttf' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -3341,7 +3341,16 @@ LaTeX Font Info:    Font shape `TU/Yas.ttf(0)/m/it' will be
 (Font)              scaled to size 13.20007pt on input line 23.
  [2
 
-])
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3])
 \tf@toc=\write6
 \openout6 = `KNTUthesis.toc'.
 
@@ -3354,7 +3363,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3] (KNTUthesis.lof [4
+[4] (KNTUthesis.lof [5
 
 ])
 \tf@lof=\write7
@@ -3369,7 +3378,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5] (KNTUthesis.lot)
+[6] (KNTUthesis.lot)
 \tf@lot=\write8
 \openout8 = `KNTUthesis.lot'.
 
@@ -3382,7 +3391,124 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6
+[7
+
+]) (list-of-symbols.tex
+LaTeX Font Info:    Font shape `TU/BNazanin.ttf(0)/m/n' will be
+(Font)              scaled to size 7.19998pt on input line 13.
+Package microtype Info: Character `A' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `F' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `J' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `K' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `L' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `T' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `V' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `W' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `X' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `Y' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `k' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `r' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `v' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `w' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `x' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `y' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `;' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `?' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `@' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `~ (= ~)' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textendash ' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textemdash ' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\AE ' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `_' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textbackslash ' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textexclamdown ' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textquestiondown ' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textless ' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\textgreater ' is missing
+(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--17
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--17
+[][]
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8
+
 
 ])
 \openout2 = `chapter1.aux'.
@@ -3683,8 +3809,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [1
-
-
 
 
 ]
@@ -4184,12 +4308,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [28]
-File: Images/Chapter2/resnext1.JPG Graphic file (type bmp)
-<Images/Chapter2/resnext1.JPG>
-File: Images/Chapter2/resnext2.JPG Graphic file (type bmp)
-<Images/Chapter2/resnext2.JPG>
-File: Images/Chapter2/resnext3.JPG Graphic file (type bmp)
-<Images/Chapter2/resnext3.JPG>
+File: Images/Chapter2/resnext1.png Graphic file (type bmp)
+<Images/Chapter2/resnext1.png>
+File: Images/Chapter2/resnext2.png Graphic file (type bmp)
+<Images/Chapter2/resnext2.png>
+File: Images/Chapter2/resnext3.png Graphic file (type bmp)
+<Images/Chapter2/resnext3.png>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4224,6 +4348,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [31]
+File: Images/Chapter2/U-Net.drawio.png Graphic file (type bmp)
+<Images/Chapter2/U-Net.drawio.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4233,9 +4363,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [32]
-File: Images/Chapter2/U-Net.drawio.png Graphic file (type bmp)
-<Images/Chapter2/U-Net.drawio.png>
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4409,101 +4536,6 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 250.
 
-LaTeX Font Info:    Font shape `TU/BNazanin.ttf(0)/m/n' will be
-(Font)              scaled to size 7.19998pt on input line 268.
-Package microtype Info: Character `A' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `F' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `J' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `K' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `L' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `T' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `V' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `W' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `X' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `Y' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `k' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `r' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `v' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `w' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `x' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `y' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `;' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `?' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `@' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `~ (= ~)' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textendash ' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textemdash ' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\AE ' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `_' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textbackslash ' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\quotesinglbase ' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\quotedblbase ' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textexclamdown ' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textquestiondown ' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textless ' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\textgreater ' is missing
-(microtype)             in font `\TU/BNazanin.ttf(0)/m/n/6'.
-(microtype)             Ignoring protrusion settings for this character.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4595,11 +4627,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [51]
-File: Images/Chapter3/dice-th-seg.jpg Graphic file (type bmp)
-<Images/Chapter3/dice-th-seg.jpg>
+File: Images/Chapter3/IoU-th-seg-psp.jpg Graphic file (type bmp)
+<Images/Chapter3/IoU-th-seg-psp.jpg>
+File: Images/Chapter3/Dice-th-seg-psp.jpg Graphic file (type bmp)
+<Images/Chapter3/Dice-th-seg-psp.jpg>
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: Images/Chapter3/IoU-th-seg-psp.jpg Graphic file (type bmp)
 <Images/Chapter3/IoU-th-seg-psp.jpg>
@@ -4607,6 +4641,24 @@ File: Images/Chapter3/Dice-th-seg-psp.jpg Graphic file (type bmp)
 <Images/Chapter3/Dice-th-seg-psp.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[52]
+File: Images/Chapter3/results.jpg Graphic file (type bmp)
+<Images/Chapter3/results.jpg>
+
+
+LaTeX Warning: Float too large for page by 55.86981pt on input line 579.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
 
@@ -4617,7 +4669,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[52]
+[53]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4626,7 +4678,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[53]
+[54]
 \openout2 = `chapter4.aux'.
 
  (chapter4.tex
@@ -4639,7 +4691,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[54
+[55
 
 
 
@@ -4653,8 +4705,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[55])
-Underfull \hbox (badness 2573) in paragraph at lines 38--70
+[56])
+Underfull \hbox (badness 2573) in paragraph at lines 38--69
 []\TU/BNazanin.ttf(0)/m/n/12 در این پایان‌نامه، یک روش دومرحله‌ای برای شناسایی 
 و قطعه‌بندی خودکار خونریزی‌های[]
  []
@@ -4667,7 +4719,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[56]
+[57]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4676,7 +4728,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[57] (KNTUthesis.bbl
+[58] (KNTUthesis.bbl
 LaTeX Font Info:    Font shape `TU/BNazanin.ttf(0)/m/n' will be
 (Font)              scaled to size 29.85593pt on input line 4.
 Package microtype Info: Character `A' is missing
@@ -4806,7 +4858,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--33
 LaTeX Font Warning: Font shape `TU/times(0)/m/it' undefined
 (Font)              using `TU/times(0)/m/n' instead on input line 50.
 
-[58
+[59
 
 
 
@@ -4823,15 +4875,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--104
 t/12 ,[]
  []
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[59]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4859,6 +4902,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [62]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 428--433
 [][]\TU/times(0)/m/it/12 Khandewal, Harsh.  Momentum ,RMSprop And Adam Optimize
 r[]
@@ -4884,7 +4936,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[63])
+[64])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4893,35 +4945,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[64]
-\openout2 = `dicfa2en.aux'.
+[65]
+\openout2 = `appendix1.aux'.
 
- (dicfa2en.tex
-Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
-;script=arab;mapping=persian-tex-text;!
-Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
-;script=arab;mapping=persian-tex-text;!
-[65
+ (appendix1.tex
+(D:\installation\Latex - MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+) [66
 
 
 ]
-Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
-;script=arab;mapping=persian-tex-text;!
-Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
-;script=arab;mapping=persian-tex-text;!
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 33.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(Code/Source.py)
+(D:\installation\Latex - MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 33--34
+[][] [] [][]
+ []
 
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(Code/Source.m) (D:\installation\Latex - MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+) (D:\installation\Latex - MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(D:\installation\Latex - MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+)
+\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 34--35
+[][] [] [][]
+ []
 
-[66]
-Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
-;script=arab;mapping=persian-tex-text;!
-Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
-;script=arab;mapping=persian-tex-text;!
+(Code/Source.cpp)
+\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 35--36
+[][] [] [][]
+ []
+
+(Code/Source.c)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4931,14 +4993,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [67])
-\openout2 = `dicen2fa.aux'.
+\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 36--80
+[][] []
+ []
 
- (dicen2fa.tex
-Missing character: There is no p in font [Fonts/B Nazanin Bold.ttf]/OT:language
-=dflt;script=arab;mapping=persian-tex-text;!
-Missing character: There is no p in font [Fonts/B Nazanin Bold.ttf]/OT:language
-=dflt;script=arab;mapping=persian-tex-text;!
-[68
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[68]
+\openout2 = `dicfa2en.aux'.
+
+ (dicfa2en.tex
+Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
+;script=arab;mapping=persian-tex-text;!
+Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
+;script=arab;mapping=persian-tex-text;!
+[69
 
 
 
@@ -4956,7 +5031,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[69]
+[70]
+Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
+;script=arab;mapping=persian-tex-text;!
+Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
+;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[71])
+\openout2 = `dicen2fa.aux'.
+
+ (dicen2fa.tex
+Missing character: There is no p in font [Fonts/B Nazanin Bold.ttf]/OT:language
+=dflt;script=arab;mapping=persian-tex-text;!
+Missing character: There is no p in font [Fonts/B Nazanin Bold.ttf]/OT:language
+=dflt;script=arab;mapping=persian-tex-text;!
+[72
+
+
+
+
+]
+Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
+;script=arab;mapping=persian-tex-text;!
+Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
+;script=arab;mapping=persian-tex-text;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[73]
 Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
 ;script=arab;mapping=persian-tex-text;!
 Missing character: There is no p in font [Fonts/B Nazanin.ttf]/OT:language=dflt
@@ -4970,17 +5084,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[70]
+[74]
 No file KNTUthesis.ind.
 \openout2 = `en-abstract.aux'.
 
-(en-abstract.tex) [71
+(en-abstract.tex) [75
 
 
 
-] (en_title.tex) (KNTUthesis.aux (chapter1.aux)
-(chapter2.aux) (chapter3.aux) (chapter4.aux) (dicfa2en.aux) (dicen2fa.aux)
-(en-abstract.aux))
+] (en_title.tex
+File: en-logo.png Graphic file (type bmp)
+<en-logo.png>
+ [76
+
+
+]) (KNTUthesis.aux (chapter1.aux)
+(chapter2.aux) (chapter3.aux) (chapter4.aux) (appendix1.aux) (dicfa2en.aux)
+(dicen2fa.aux) (en-abstract.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2024-01-04>
@@ -4993,15 +5113,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `KNTUthesis.out' has not changed.
-(rerunfilecheck)             Checksum: A0CD5D5B5C25DA12F8B21632F58AA654;11155.
+(rerunfilecheck)             Checksum: 23B9A1E8CFFD991BB4B6BB02A53FA4F8;11242.
  ) 
 Here is how much of TeX's memory you used:
- 37856 strings out of 409616
- 773719 string characters out of 5776834
- 1943177 words of memory out of 5000000
- 59122 multiletter control sequences out of 15000+600000
- 569475 words of font info for 158 fonts, out of 8000000 for 9000
+ 38790 strings out of 409616
+ 785509 string characters out of 5776834
+ 1982177 words of memory out of 5000000
+ 60017 multiletter control sequences out of 15000+600000
+ 569507 words of font info for 162 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,18n,110p,2409b,747s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,18n,110p,2409b,1759s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on KNTUthesis.pdf (83 pages).
+Output written on KNTUthesis.pdf (90 pages).

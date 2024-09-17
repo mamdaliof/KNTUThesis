@@ -1,7 +1,9 @@
 \edef \SavedTocDepth {\the \value {tocdepth}}
 \setcounter {tocdepth}{-10}
-\contentsline {chapter}{فهرست اشکال}{د}{section*.4}%
-\contentsline {chapter}{فهرست جداول}{و}{section*.5}%
+\contentsline {chapter}{فهرست اشکال}{ه}{section*.4}%
+\contentsline {chapter}{فهرست جداول}{ز}{section*.5}%
+\par عنوان\hfill صفحه \par 
+\setcounter {tocdepth}{\SavedTocDepth }
 \contentsline {chapter}{\numberline {1}مقدمه}{1}{chapter.1}%
 \contentsline {section}{\numberline {1-1} خونریزی درون‌جمجمه‌ای و اهمیت آن}{2}{section.1.1}%
 \contentsline {section}{\numberline {1-2}انواع خونریزی درون‌جمجمه‌ای}{2}{section.1.2}%
@@ -16,8 +18,6 @@
 \contentsline {section}{\numberline {1-6}تحقیقات اخیر در زمینه یادگیری ماشین}{9}{section.1.6}%
 \contentsline {subsection}{\numberline {1-6-1}نقاط ضعف موجود در پژوهش‌های گذشته}{11}{subsection.1.6.1}%
 \contentsline {subsection}{\numberline {1-6-2}اهداف پژوهش}{11}{subsection.1.6.2}%
-\par عنوان\hfill صفحه \par 
-\setcounter {tocdepth}{\SavedTocDepth }
 \contentsline {chapter}{\numberline {2}روش‌ها و مجموعه‌داده}{13}{chapter.2}%
 \contentsline {section}{\numberline {2-1}بررسی آماری مجموعه‌داده}{14}{section.2.1}%
 \contentsline {section}{\numberline {2-2}پیش‌پردازش\LTRfootnote {Pre-process}}{19}{section.2.2}%
@@ -37,7 +37,7 @@
 \contentsline {subsection}{\numberline {2-4-5}\lr {EfficientNet}}{31}{subsection.2.4.5}%
 \contentsline {section}{\numberline {2-5}مدل‌های قطعه‌بندی در شبکه عصبی عمیق}{32}{section.2.5}%
 \contentsline {subsection}{\numberline {2-5-1}\lr {U-Net}}{32}{subsection.2.5.1}%
-\contentsline {section}{\numberline {2-6}\lr {PSPNet}}{34}{section.2.6}%
+\contentsline {section}{\numberline {2-6}\lr {PSPNet}}{33}{section.2.6}%
 \contentsline {section}{\numberline {2-7}پس‌پردازش}{34}{section.2.7}%
 \contentsline {section}{\numberline {2-8}روش پیشنهادی}{35}{section.2.8}%
 \contentsline {section}{\numberline {2-9}آموزش و تصمیم‌گیری}{37}{section.2.9}%
@@ -60,10 +60,11 @@
 \contentsline {subsubsection}{تحلیل \lr {Grad-CAM}}{48}{section*.45}%
 \contentsline {subsubsection}{تحلیل \lr {t-SNE}}{49}{section*.47}%
 \contentsline {section}{\numberline {3-3}نتایج قطعه‌بندی}{50}{section.3.3}%
-\contentsline {chapter}{\numberline {4}کارهای پیشنهادی و نتیجه‌گیری}{54}{chapter.4}%
-\contentsline {section}{\numberline {4-1}محدودیت‌های و پیشنهادات}{55}{section.4.1}%
-\contentsline {section}{\numberline {4-2}نتیجه‌گیری}{56}{section.4.2}%
-\contentsline {chapter}{منابع و مراجع}{58}{appendix*.53}%
-\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{65}{appendix*.54}%
-\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{68}{appendix*.55}%
+\contentsline {chapter}{\numberline {4}کارهای پیشنهادی و نتیجه‌گیری}{55}{chapter.4}%
+\contentsline {section}{\numberline {4-1}محدودیت‌های و پیشنهادات}{56}{section.4.1}%
+\contentsline {section}{\numberline {4-2}نتیجه‌گیری}{57}{section.4.2}%
+\contentsline {chapter}{منابع و مراجع}{59}{appendix*.54}%
+\contentsline {chapter}{پیوست}{66}{appendix*.55}%
+\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{69}{appendix*.57}%
+\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{72}{appendix*.58}%
 \contentsfinish 

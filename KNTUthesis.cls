@@ -70,7 +70,7 @@
 %\vskip 1.5cm
 {\fontsize{16pt}{14pt}\selectfont\bfseries
 \if@mscthesis
-پایان‌نامه کارشناسی‌ارشد
+پایان‌نامه کارشناسی
 \vspace{-.8cm}
 
 \@department
@@ -228,7 +228,7 @@
 \fontsize{16pt}{17pt}\selectfont\@latinfaculty\space 
 \vskip 5mm
  \if@mscthesis
-M. Sc. Thesis\par
+B. Sc. Thesis\par
 \else
 Ph. D Thesis\par
 \fi\par

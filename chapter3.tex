@@ -520,16 +520,25 @@ $0.27$}
  \lr{Fold}
  گزارش کرده‌اند؛ بنابراین اگر این معیار را برای ارزیابی نتایج روش دومرحله‌ای در نظر بگیریم، این روش بهبود قابل‌توجهی در معیارهای قطعه‌بندی ایجاد کرده است.
  
- 
-\begin{figure}[h]
-\centering
-\includegraphics[width=1.0\linewidth]{Images/Chapter3/dice-th-seg}
-\caption{نتایج مدل
-\lr{U-Net}
-به‌ازای آستانه‌های متفاوت}
-\label{fig:dice-th-seg-unet}
-\end{figure}
- 
+
+   \begin{figure}[h!]
+   		\centering % <-- added
+   		\begin{subfigure}{0.49\textwidth}
+   			\includegraphics[width=\linewidth]{Images/Chapter3/IoU-th-seg-psp.jpg}
+   			\caption{\lr{IoU}}
+   			\label{fig:ch3-seg-IoU-unet}
+   		\end{subfigure}\hfil % <-- 
+   		\begin{subfigure}{0.49\textwidth}
+   			\includegraphics[width=\linewidth]{Images/Chapter3/Dice-th-seg-psp.jpg}
+   			\caption{\lr{Dice}}
+   			\label{fig:ch3-seg-Dice-unet}
+   		\end{subfigure}\hfil % <-- added
+ \caption{نتایج مدل
+ \lr{U-Net}
+ به‌ازای آستانه‌های متفاوت}
+   		\label{fig:dice-th-seg-unet}
+   \end{figure}
+   
  
   \begin{figure}[h!]
   		\centering % <-- added
@@ -548,4 +557,24 @@ $0.27$}
 به‌ازای آستانه‌های متفاوت}
   		\label{fig:dice-th-seg-psp}
   \end{figure}
+  
+\autoref{fig:results-seg}
+چند عملکرد مدل را در پیش‌بینی خونریزی در چند نمونه برش نشان می‌دهد. از بررسی این تصاویر مشخص است که مدل شبکه عصبی در پیش‌بینی خونریزی در برش‌ها دچار زیرقطعه‌بندی 
+\lr{Under Segmentation}
+و لازم است تا با اضافه کردن یک تابع هزینه مناسب یا یک پس‌پردازش این مسئله رفع شود، از طرف دیگر با بررسی ستون‌های موجود در
+\autoref{fig:results-seg}،
+مشخص است که در ستون آخر با وجود اینکه مساحت خونریزی زیاد بوده؛ اما قطعه‌بندی به صورت درستی انجام نشده است. علت به وجود آمدن این مشکل این است که خونریزی درون‌‌جمجمه‌ای، در زمان ابتدایی وقوع حادثه بافت تیره‌تری نسبت به بقیه قسمت‌های مغز دارد و با گذر زمان رنگ این ضایعه نسبت به بقیه اجزای مغز روشن‌تر می‌شود؛ بنابراین با توجه به اینکه تصویر سی‌تی‌اسکن در چه زمانی گرفته شود رنگ این ضایعه متفاوت است. مشکل موجود در مجموعه‌داده 
+\lr{PhysioNet}
+نبود تعداد کافی برش دارای خونریزی به رنگ تیره می‌باشد و در ادامه آن مدل‌های مبتنی بر شبکه عصبی پیچشی حساسیت بیشتری به بافت تصویر دارند تا شکل ضایعه موجود در تصویر بنابراین مدل پیشنهادی 
+\lr{Bias}
+بیشتری دارد تا خونریزی‌هایی با رنگ روشن را بهتر تشخیص دهد.
+
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.90\linewidth]{Images/Chapter3/results.jpg}
+\caption{نمونه عملکرد مدل در پیش‌بینی تصاویر سی‌تی‌اسکن}
+\label{fig:results-seg}
+\end{figure}
   
