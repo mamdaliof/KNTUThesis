@@ -8,14 +8,14 @@
 \contentsline {figure}{\numberline {2-2}{\ignorespaces خوانش‌های متفاوت از تصاویر سی‌تی‌اسکن \cite {kaggleCTScansDICOM}}}{15}{figure.caption.11}%
 \contentsline {figure}{\numberline {2-3}{\ignorespaces ‌تعداد برش‌های بیماران بر اساس شناسه اختصاصی آنها}}{16}{figure.caption.12}%
 \contentsline {figure}{\numberline {2-4}{\ignorespaces توزیع بیماران و برش‌ها در مجموعه‌داده \lr {PhysioNet}}}{17}{figure.caption.13}%
-\contentsline {figure}{\numberline {2-5}{\ignorespaces توزیع پیکسلی برش‌ها برای برش‌های دارای خونریزی در مقال برش‌های سالم}}{17}{figure.caption.14}%
-\contentsline {figure}{\numberline {2-6}{\ignorespaces توزیع نرمال‌شده پیکسل‌های دارای خونریزی در مقابل تمام پیکسل‌های تصاویر}}{18}{figure.caption.15}%
-\contentsline {figure}{\numberline {2-7}{\ignorespaces توزیع خونریزی بر اساس برش‌ها}}{19}{figure.caption.16}%
-\contentsline {figure}{\numberline {2-8}{\ignorespaces پراکندگی مکانی خونریزی در مجموعه‌داده \lr {PhysioNet}}}{20}{figure.caption.17}%
-\contentsline {figure}{\numberline {2-10}{\ignorespaces اثر بافت‌های متفاوت در یکای \lr {Hounsfield} \cite {kaggleCTScansDICOM}}}{20}{figure.caption.19}%
-\contentsline {figure}{\numberline {2-9}{\ignorespaces پراکندگی مکانی خونریزی در زیرمجموعه‌های متفاوت از مجموعه‌داده}}{21}{figure.caption.18}%
+\contentsline {figure}{\numberline {2-5}{\ignorespaces توزیع پیکسلی برش‌ها برای برش‌های دارای خونریزی در مقال برش‌های سالم}}{18}{figure.caption.14}%
+\contentsline {figure}{\numberline {2-6}{\ignorespaces توزیع نرمال‌شده پیکسل‌های دارای خونریزی در مقابل تمام پیکسل‌های تصاویر}}{19}{figure.caption.15}%
+\contentsline {figure}{\numberline {2-10}{\ignorespaces اثر بافت‌های متفاوت در یکای \lr {Hounsfield} \cite {kaggleCTScansDICOM}}}{19}{figure.caption.19}%
+\contentsline {figure}{\numberline {2-7}{\ignorespaces توزیع خونریزی بر اساس برش‌ها}}{20}{figure.caption.16}%
+\contentsline {figure}{\numberline {2-8}{\ignorespaces پراکندگی مکانی خونریزی در مجموعه‌داده \lr {PhysioNet}}}{21}{figure.caption.17}%
+\contentsline {figure}{\numberline {2-9}{\ignorespaces پراکندگی مکانی خونریزی در زیرمجموعه‌های متفاوت از مجموعه‌داده}}{22}{figure.caption.18}%
 \contentsline {figure}{\numberline {2-11}{\ignorespaces تأثیر پنجره‌گذاری در نمایش خونریزی در یک برش از سی‌تی‌اسکن}}{22}{figure.caption.20}%
-\contentsline {figure}{\numberline {2-12}{\ignorespaces مدلسازی یک نورون عصبی توسط رابطه ریاضی و ارتباط بین نرون‌ها با استفاده از لایه‌های پنهان \cite {brainmentorsIntroductionDeep}}}{25}{figure.caption.23}%
+\contentsline {figure}{\numberline {2-12}{\ignorespaces مدلسازی یک نورون عصبی توسط رابطه ریاضی و ارتباط بین نورون‌ها با استفاده از لایه‌های پنهان \cite {brainmentorsIntroductionDeep}}}{25}{figure.caption.23}%
 \contentsline {figure}{\numberline {2-13}{\ignorespaces یک بلوک از معماری \lr {ResNet} که اتصال میان‌بر همانی را نشان می‌دهد \cite {wikipediaResidualNeural}.}}{28}{figure.caption.28}%
 \contentsline {figure}{\numberline {2-14}{\ignorespaces ساختارهای مختلف در معماری \lr {ResNeXt} که کانولوشن‌های گروهی، مسیرهای پردازشی موازی و روش ادغام را نشان می‌دهند \cite {xie2017aggregated}.}}{29}{figure.caption.29}%
 \contentsline {figure}{\numberline {2-15}{\ignorespaces بلوک \lr {Squeeze-and-Excitation} که نحوه عملکرد آن را در ارزیابی و وزن‌دهی کانال‌ها نشان می‌دهد \cite {hu2018squeeze}.}}{30}{figure.caption.30}%
